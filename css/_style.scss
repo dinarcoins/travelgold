@@ -1,0 +1,14 @@
+img {
+	max-width: 100%;
+	object-fit: cover;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	@media screen and (max-width: 767px) {
+		font-size: 80%;
+	}
+}
+body {
+	font-family: "Lora", serif;
+}
