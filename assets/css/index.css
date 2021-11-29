@@ -213,6 +213,10 @@
   line-height: 1.375;
 }
 
+.t-header .header_main .navbar .nav_top .nav_menu ul li a img {
+  border-radius: 50%;
+}
+
 img {
   max-width: 100%;
   -o-object-fit: cover;

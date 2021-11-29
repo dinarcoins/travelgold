@@ -145,6 +145,15 @@
 					}
 				}
 				.nav_menu {
+					ul {
+						li {
+							a {
+								img {
+									border-radius: 50%;
+								}
+							}
+						}
+					}
 				}
 			}
 		}
