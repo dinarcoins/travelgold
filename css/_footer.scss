@@ -1,0 +1,118 @@
+.footer_top {
+	background-color: #17130d;
+	width: 100%;
+	padding: 2.063rem 0;
+	.footer_top-items {
+		ul {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+			margin-bottom: 0;
+			font-family: "Lora", serif;
+			padding: 0;
+			.border_footer-items {
+				border-right: 1px solid #c4c4c4;
+			}
+			li {
+				width: calc(100% / 6);
+				a {
+					font-size: 1rem;
+					line-height: 1.375;
+					color: #ffdc73;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
+.t-footer {
+	position: relative;
+	// .bg-footer {
+	// 	background: url("../img/bg-footer.png") no-repeat center;
+	// 	background-size: cover;
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	z-index: 0;
+	// }
+}
+.footer_mid {
+	background-color: #17130d;
+	width: 100%;
+	padding-top: 2.519rem;
+	z-index: -1;
+	input {
+		width: 100%;
+		border: none;
+		background-color: transparent;
+		line-height: 1.375;
+		color: #c4c4c4;
+		box-shadow: none;
+		border: 0;
+		outline: 0;
+		padding: 0.313rem 0;
+		border-bottom: 1px solid #ffdc73;
+		&::placeholder {
+			color: #c4c4c4;
+			font-family: "Lora", serif;
+		}
+	}
+	button {
+		color: #ffdc73;
+		font-family: "Lora", serif;
+		font-weight: 500;
+		font-size: 1rem;
+		line-height: 1.375;
+	}
+	.footer_mid-items {
+		p {
+			display: inline;
+			font-weight: normal;
+			font-size: 1rem;
+			line-height: 1.375rem;
+			color: #ffdc73;
+		}
+		a {
+			font-weight: 400;
+			font-size: 1rem;
+			line-height: 1.375rem;
+			color: #ffffff;
+			&:hover {
+				color: #ffdc73;
+			}
+		}
+		.footer-text {
+			font-weight: 400;
+			font-size: 1rem;
+			line-height: 1.375;
+			text-align: center;
+			color: #ffffff;
+			display: block;
+		}
+		.phone-footer {
+			font-family: "Lora", serif;
+			font-size: 1.5rem;
+			line-height: 2;
+			text-align: center;
+			text-transform: uppercase;
+			color: #ffdc73;
+		}
+	}
+	.footer-title {
+		line-height: 1.375;
+		font-size: 1rem;
+		color: #ffffff;
+		font-family: "Lora", serif;
+		text-transform: uppercase;
+		text-align: left;
+		font-weight: 500;
+		p {
+			text-align: left;
+			display: block;
+			color: #ffdc73;
+		}
+	}
+}

@@ -1,14 +1,72 @@
 img {
 	max-width: 100%;
+	max-height: 100%;
 	object-fit: cover;
 }
 a {
-	text-decoration: none;
-	color: #000;
+	text-decoration: none !important;
 	@media screen and (max-width: 767px) {
 		font-size: 80%;
 	}
 }
 body {
 	font-family: "Lora", serif;
+}
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+.title-main {
+	h1.title {
+		margin-top: 20px;
+		font-family: "Lora", serif;
+		font-size: 2rem;
+		line-height: 2.813rem;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffdc73;
+		font-weight: 600;
+	}
+}
+.section-title {
+	font-family: "Lora", serif;
+	font-size: 1.25rem;
+	line-height: 1.875rem;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 500;
+	text-align: left;
+}
+.price-text {
+	font-family: "Lora", serif;
+	font-size: 1.125rem;
+	line-height: 1.875;
+	color: #ffdc73;
+	display: flex;
+	align-items: center;
+	img {
+		margin-right: 10px;
+	}
+}
+.info-text {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.375;
+	color: #ffffff;
+	img {
+		margin-right: 10px;
+	}
+}
+span.old-price {
+	font-weight: 400;
+	font-size: 0.75rem;
+	line-height: 1.375;
+	text-decoration: line-through;
+	color: #888888;
+	margin-left: 20px;
+}
+.readmore-btn {
 }
