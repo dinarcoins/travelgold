@@ -20,6 +20,20 @@
   color: #000000;
 }
 
+.header_main .bg_header-top {
+  top: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(17.75%, #241e15), color-stop(90.11%, rgba(36, 30, 21, 0)));
+  background: linear-gradient(180deg, #241e15 17.75%, rgba(36, 30, 21, 0) 90.11%);
+  width: 100%;
+  height: 273px;
+  left: 0px;
+  z-index: -1;
+}
+
+.header_main .header_mid {
+  z-index: 1;
+}
+
 .header_main .header_mid .header_input {
   max-width: 16.75rem;
   width: 16.75rem;
@@ -57,16 +71,6 @@
   line-height: 1.875;
   text-align: center;
   text-transform: uppercase;
-}
-
-.header_main .header_mid .bg_header-top {
-  top: 0;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(17.75%, #241e15), color-stop(90.11%, rgba(36, 30, 21, 0)));
-  background: linear-gradient(180deg, #241e15 17.75%, rgba(36, 30, 21, 0) 90.11%);
-  width: 100%;
-  height: 173px;
-  left: 0px;
-  z-index: -1;
 }
 
 .header_main .header_bottom {
@@ -530,4 +534,9 @@ span.old-price {
 
 .tourhot .tourhot_content-img img {
   border-radius: 5px;
+}
+
+.ad .ad-content img {
+  width: 100%;
+  height: auto;
 }

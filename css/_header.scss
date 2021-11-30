@@ -18,7 +18,20 @@
 			}
 		}
 	}
+	.bg_header-top {
+		top: 0;
+		background: linear-gradient(
+			180deg,
+			#241e15 17.75%,
+			rgba(36, 30, 21, 0) 90.11%
+		);
+		width: 100%;
+		height: 273px;
+		left: 0px;
+		z-index: -1;
+	}
 	.header_mid {
+		z-index: 1;
 		.header_input {
 			max-width: 16.75rem;
 			width: 16.75rem;
@@ -44,18 +57,6 @@
 				text-align: center;
 				text-transform: uppercase;
 			}
-		}
-		.bg_header-top {
-			top: 0;
-			background: linear-gradient(
-				180deg,
-				#241e15 17.75%,
-				rgba(36, 30, 21, 0) 90.11%
-			);
-			width: 100%;
-			height: 173px;
-			left: 0px;
-			z-index: -1;
 		}
 	}
 	.header_bottom {
