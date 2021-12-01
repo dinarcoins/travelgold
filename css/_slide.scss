@@ -1,0 +1,134 @@
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+	.swiper-pagination-bullet {
+	width: 17px;
+	height: 17px;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+	.swiper-pagination-bullet-active {
+	background: #ffdc73;
+}
+
+.slide {
+	font-family: "Lora", serif;
+	.slide_items {
+		position: absolute;
+		top: 40%;
+		right: 20%;
+		background: rgba(103, 48, 8, 0.3);
+		width: 479px;
+		height: 459px;
+		padding: 4.375rem 1.875rem;
+	}
+	.slide-border {
+		position: absolute;
+		top: 38%;
+		right: 19%;
+		width: 515px;
+		height: 499px;
+		object-fit: cover;
+	}
+	h2.slide-title-1 {
+		font-size: 1.75rem;
+		line-height: 2.5;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+		font-weight: 600;
+	}
+	h4.slide-title-2 {
+		font-size: 1.25rem;
+		line-height: 1.875;
+		text-transform: uppercase;
+		color: #ffdc73;
+	}
+	.slide-text {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 1rem;
+		line-height: 1.375;
+		text-align: justify;
+		color: #ffffff;
+	}
+	.slide-price {
+		font-size: 1.75rem;
+		line-height: 2.5;
+		color: #ffdc73;
+		display: flex;
+		font-weight: 500;
+		align-items: center;
+		img {
+			max-width: 32px;
+			margin-right: 15px;
+		}
+	}
+	.slide-old-price {
+		display: inline-block;
+		font-size: 1.25rem;
+		line-height: 2.5;
+		text-decoration: line-through;
+		color: #ffffff;
+		font-weight: 400;
+	}
+	.slide-btn {
+		background: linear-gradient(
+			142.21deg,
+			#d7a93b 8.73%,
+			#d7a93b 13.52%,
+			#fff282 38.88%,
+			#d7a93b 66.63%,
+			#edd463 96.3%
+		);
+		font-weight: 600;
+		padding: 0.563rem 3.25rem;
+		border-radius: 5px;
+		text-transform: uppercase;
+		font-size: 1rem;
+		line-height: 1.375;
+		color: #241e15;
+		float: left;
+	}
+}
