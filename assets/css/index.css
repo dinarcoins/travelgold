@@ -1073,5 +1073,174 @@ body {
 }
 
 .breaknew {
+  background-image: url("/img/MaskGroup.png	");
+  padding: 6rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
+}
+
+.breaknew .breaknew_content {
+  width: 100%;
+}
+
+.breaknew .breaknew-text-1 {
+  font-family: "Lora", serif;
+  color: #ffdc73;
+  border-radius: 5px;
+  font-size: 4.465rem;
+  line-height: 5.25rem;
+  font-weight: 600;
+  background: -webkit-linear-gradient(#f7c631, #fff9ab, #f7ca3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.breaknew .breaknew-text-2 {
+  font-weight: 400;
+  font-size: 1.191rem;
+  line-height: 1.625rem;
+  color: #f9f9f9;
+}
+
+.camnang {
+  margin-top: 4.983rem;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.camnang .camnang-title {
+  font-size: 1.5rem;
+  line-height: 2.25;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  color: #ffdc73;
+  margin: 0;
+}
+
+.camnang .camnang_read-all {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375;
+  text-align: center;
+  color: #ffdc73;
+}
+
+.camnang .camnang_post-date {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.875;
+  text-align: justify;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.camnang .camnang_post-date img {
+  margin-right: 10px;
+}
+
+.camnang .camnang_post-title {
+  font-family: "Lora", serif;
+  font-size: 1.125rem;
+  line-height: 1.625;
+  color: #ffdc73;
+  text-align: left;
+  margin-bottom: 0;
+  display: block;
+}
+
+.camnang .camnang_post-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.camnang .camnang_post-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.camnang .camnang_items-title {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  line-height: 1.375;
+  color: #ffdc73;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.camnang .camnang-img {
+  width: 50%;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 1px solid #ffdc73;
+}
+
+.camnang .camnang_dulich-content {
+  overflow-y: scroll;
+  height: auto;
+  height: 540px;
+  padding-right: 20px;
+}
+
+.camnang .camnang_dulich-content .camnang_dulich-items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px dashed #f5cd62;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+.camnang .camnang_dulich-content .camnang_dulich-items img {
+  width: 25%;
+  border-radius: 5px;
+  border: 1px solid #ffdc73;
+}
+
+.camnang .camnang_dulich-content .camnang_dulich-items div {
+  width: 70%;
+}
+
+.camnang ::-webkit-scrollbar {
+  width: 1px;
+}
+
+.camnang ::-webkit-scrollbar-track {
+  background: -webkit-gradient(linear, left top, right top, from(#c99a4b), color-stop(26.61%, #f0d563), color-stop(52.6%, #fef39a), color-stop(78.32%, #f0d563), to(#c99a4b));
+  background: linear-gradient(90deg, #c99a4b 0%, #f0d563 26.61%, #fef39a 52.6%, #f0d563 78.32%, #c99a4b 100%);
+  -webkit-box-shadow: inset -1px -1px 2px rgba(255, 255, 255, 0.06), inset 1px 1px 3px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -1px -1px 2px rgba(255, 255, 255, 0.06), inset 1px 1px 3px rgba(0, 0, 0, 0.25);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.camnang ::-webkit-scrollbar-thumb {
+  background: url("/img/scroll.svg");
+  width: 20px;
+  height: 20px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 10px;
 }

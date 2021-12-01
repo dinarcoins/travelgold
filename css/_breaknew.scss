@@ -1,3 +1,28 @@
 .breaknew {
+	background-image: url("/img/MaskGroup.png	");
+	padding: 6rem 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 	width: 100%;
+	.breaknew_content {
+		width: 100%;
+	}
+	.breaknew-text-1 {
+		font-family: "Lora", serif;
+		color: #ffdc73;
+		border-radius: 5px;
+		font-size: 4.465rem;
+		line-height: 5.25rem;
+		font-weight: 600;
+		background: -webkit-linear-gradient(#f7c631, #fff9ab, #f7ca3a);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	.breaknew-text-2 {
+		font-weight: 400;
+		font-size: 1.191rem;
+		line-height: 1.625rem;
+		color: #f9f9f9;
+	}
 }
