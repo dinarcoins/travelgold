@@ -1,4 +1,5 @@
 .favourite {
+	padding-bottom: 100px;
 	.favourite_content {
 		a {
 			color: #ffdc73;
@@ -66,5 +67,22 @@
 			transform: translateX(-50%);
 			z-index: 11;
 		}
+	}
+	.swiper-scrollbar {
+		background: #888888;
+	}
+	.swiper-horizontal > .swiper-scrollbar {
+		height: 2px;
+		bottom: 0;
+		width: 58%;
+		left: 20%;
+		transform: translateY(-100%);
+	}
+	.swiper-scrollbar-drag {
+		background: #f5cd62;
+		width: 201px !important;
+	}
+	.swiper-pointer-events {
+		padding-bottom: 50px;
 	}
 }

@@ -4,13 +4,15 @@
 	.header_top {
 		background-color: #b88f4a;
 		padding: 0.563rem 0;
+		position: relative;
+		z-index: 6;
 		.header_btn {
 			color: #ffffff;
 			font-size: 0.875rem;
 			line-height: 1.375;
 			padding: 0;
 		}
-		.register {
+		.register-login {
 			a {
 				&:hover {
 					color: #000000;
@@ -72,6 +74,8 @@
 		}
 		.logo {
 			border-radius: 50%;
+			position: relative;
+			z-index: 12;
 		}
 		ul.list_menu {
 			display: grid;

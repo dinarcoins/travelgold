@@ -1,9 +1,39 @@
-.ad {
-	margin-top: 3.75rem;
-	margin-bottom: 4.938rem;
-	color: #fff;
-	.mySwiper_ad {
-		padding: 0 15px;
+.comments {
+	.comment_items {
+		background: #18140e;
+		border-radius: 5px;
+		padding: 2.906rem 2.398rem;
+		border: 1px solid #f2cd72;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		color: #ffffff;
+
+		img {
+			max-width: 130px;
+		}
+	}
+	.mySwiper_comments {
+		padding: 65px 15px;
+	}
+	.comments_name {
+		font-family: "Lora", serif;
+		font-size: 1.125rem;
+		line-height: 1.625;
+		text-align: center;
+		color: #f5cd62;
+	}
+	.comments_info {
+		font-weight: 400;
+		font-size: 0.875rem;
+		line-height: 1.25;
+	}
+	.comments_text {
+		font-weight: 400;
+		font-size: 1rem;
+		line-height: 1.375;
+		text-align: center;
 	}
 	.swiper-button-prev:after,
 	.swiper-rtl .swiper-button-next:after,
