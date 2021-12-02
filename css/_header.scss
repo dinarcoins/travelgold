@@ -1,6 +1,21 @@
 .header_main {
 	max-width: 100%;
 	z-index: 10;
+	// .logo-bg {
+	// 	position: relative;
+	// 	&::before {
+	// 		content: "";
+	// 		width: 250%;
+	// 		height: 200%;
+	// 		position: absolute;
+	// 		top: 50%;
+	// 		left: 50%;
+	// 		transform: translate(-50%, -50%);
+	// 		background: url("/img/background_logo.png") no-repeat center center;
+	// 		background-size: cover;
+	// 		z-index: -1;
+	// 	}
+	// }
 	#header-top {
 		transition: 1s;
 	}

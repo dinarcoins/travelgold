@@ -1,0 +1,8 @@
+.tourhot .tourhot_content-img {
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.tourhot .tourhot_content-img img {
+  border-radius: 5px;
+  border: 2px solid #f0b71a;
+}

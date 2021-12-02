@@ -198,17 +198,6 @@
   z-index: 0;
 }
 
-.t-footer .button-night-mode {
-  position: absolute;
-  left: 30px;
-  bottom: 80px;
-  background: linear-gradient(142.21deg, #d7a93b 8.73%, #d7a93b 13.52%, #fff282 38.88%, #d7a93b 66.63%, #edd463 96.3%);
-  border-radius: 99px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  padding: 5px;
-}
-
 .footer_mid {
   background-color: #17130d;
   width: 100%;
@@ -667,8 +656,19 @@ span.old-price {
   visibility: visible;
 }
 
+.button-night-mode {
+  position: fixed;
+  left: 30px;
+  bottom: 80px;
+  background: linear-gradient(142.21deg, #d7a93b 8.73%, #d7a93b 13.52%, #fff282 38.88%, #d7a93b 66.63%, #edd463 96.3%);
+  border-radius: 99px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  padding: 5px;
+  z-index: 15;
+}
+
 .tourhot .tourhot_content-img {
-  border: 2px solid #f0b71a;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
@@ -676,6 +676,7 @@ span.old-price {
 
 .tourhot .tourhot_content-img img {
   border-radius: 5px;
+  border: 2px solid #f0b71a;
 }
 
 .ad {
@@ -1693,8 +1694,12 @@ span.old-price {
   .header_main .bg_header-top,
   .register .register_content .register-border-right,
   .register .register_content .register-border-left,
-  .slide {
+  .slide,
+  .favourite {
     display: none !important;
+  }
+  .header_main .header_top .header_btn {
+    font-size: 0.575rem;
   }
   .title-main h1.title {
     font-size: 1.4rem;
@@ -1741,5 +1746,43 @@ span.old-price {
   }
   .handbook .handbook_post-text {
     font-size: 0.6rem;
+  }
+  .handbook .handbook-title {
+    font-size: 1rem;
+  }
+  .handbook .handbook_read-all {
+    font-size: 0.875rem;
+  }
+  .handbook .handbook_travel-content {
+    height: 490px;
+  }
+  .reason {
+    padding-bottom: 15px;
+  }
+  .reason .reason_content .reason_content-items .reason-items {
+    padding: 10px 0;
+    margin-bottom: 15px;
+  }
+  .reason .img-bg .flower-left-dark,
+  .reason .img-bg .flower-left-light,
+  .reason .img-bg .flower-right-dark,
+  .reason .img-bg .flower-right-light {
+    width: 20%;
+  }
+  .footer_mid .footer-title {
+    margin-bottom: 10px;
+  }
+  .footer_bottom .footer_bottom-items ul {
+    display: none;
+  }
+  .footer_bottom .footer_bottom-items .footer-text {
+    font-size: 0.875rem;
+  }
+  .button-night-mode,
+  #button-backtotop {
+    bottom: 15px;
+  }
+  .button-night-mode {
+    left: 10px;
   }
 }

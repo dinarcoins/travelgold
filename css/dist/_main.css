@@ -31,3 +31,14 @@
   opacity: 1;
   visibility: visible;
 }
+
+.button-night-mode {
+  position: fixed;
+  left: 30px;
+  bottom: 80px;
+  background: linear-gradient(142.21deg, #d7a93b 8.73%, #d7a93b 13.52%, #fff282 38.88%, #d7a93b 66.63%, #edd463 96.3%);
+  border-radius: 99px;
+  transform: rotate(-90deg);
+  padding: 5px;
+  z-index: 15;
+}

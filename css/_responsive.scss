@@ -4,8 +4,12 @@
 	.header_main .bg_header-top,
 	.register .register_content .register-border-right,
 	.register .register_content .register-border-left,
-	.slide {
+	.slide,
+	.favourite {
 		display: none !important;
+	}
+	.header_main .header_top .header_btn {
+		font-size: 0.575rem;
 	}
 	.title-main h1.title {
 		font-size: 1.4rem;
@@ -51,5 +55,43 @@
 		.handbook_post-text {
 			font-size: 0.6rem;
 		}
+		.handbook-title {
+			font-size: 1rem;
+		}
+		.handbook_read-all {
+			font-size: 0.875rem;
+		}
+		.handbook_travel-content {
+			height: 490px;
+		}
+	}
+	.reason {
+		padding-bottom: 15px;
+		.reason_content .reason_content-items .reason-items {
+			padding: 10px 0;
+			margin-bottom: 15px;
+		}
+	}
+	.reason .img-bg .flower-left-dark,
+	.reason .img-bg .flower-left-light,
+	.reason .img-bg .flower-right-dark,
+	.reason .img-bg .flower-right-light {
+		width: 20%;
+	}
+	.footer_mid .footer-title {
+		margin-bottom: 10px;
+	}
+	.footer_bottom .footer_bottom-items ul {
+		display: none;
+	}
+	.footer_bottom .footer_bottom-items .footer-text {
+		font-size: 0.875rem;
+	}
+	.button-night-mode,
+	#button-backtotop {
+		bottom: 15px;
+	}
+	.button-night-mode {
+		left: 10px;
 	}
 }
