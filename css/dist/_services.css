@@ -1,0 +1,100 @@
+.service nav a {
+  font-size: 1.25rem;
+  line-height: 1.875;
+  text-align: right;
+  color: #ffffff;
+  font-family: "Lora", serif;
+  opacity: 0.5;
+  font-weight: 600;
+}
+.service nav a:focus {
+  color: #ffdc73;
+  opacity: 1;
+}
+.service nav a:hover {
+  color: #ffdc73;
+  border: 0;
+  background-color: transparent;
+}
+.service .service_content {
+  border-radius: 5px;
+  border: 1px solid #ffdc73;
+  position: relative;
+  padding: 15px 15px 30px 15px;
+}
+.service .service_content .service_border-left {
+  position: absolute;
+  top: 0;
+  left: -45px;
+}
+.service .service_content .service_border-right {
+  position: absolute;
+  top: 0;
+  right: -45px;
+}
+.service .service_items-content {
+  background: transparent;
+  border: 1px solid #f2cd72;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  color: #f2cd72;
+}
+.service .service_items-content:hover {
+  color: #f2cd72;
+}
+.service .service_items-content input {
+  width: calc(100% - 30px);
+  height: 100%;
+  background-color: transparent;
+  box-shadow: none;
+  border: 0;
+  outline: 0;
+  color: #ffdc73;
+}
+.service .service_items-img img {
+  max-width: 60px;
+}
+.service .service_items-1 {
+  opacity: 0.8;
+  border: 1px solid rgba(220, 156, 18, 0.6);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  margin: 0;
+}
+.service .service_title {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  line-height: 1.375;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.service .service_items-title {
+  font-size: 1rem;
+  line-height: 1.375;
+  font-family: "Lora", serif;
+  color: #ffdc73;
+  font-weight: 600;
+}
+.service .service_items-text {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.service .service_items-button {
+  background: linear-gradient(142.21deg, #d7a93b 8.73%, #d7a93b 13.52%, #fff282 38.88%, #d7a93b 66.63%, #edd463 96.3%);
+  border-radius: 5px;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+}

@@ -7,6 +7,7 @@
 			color: #ffffff;
 			font-family: "Lora", serif;
 			opacity: 0.5;
+			font-weight: 600;
 			&:focus {
 				color: #ffdc73;
 				opacity: 1;
@@ -35,7 +36,7 @@
 		}
 	}
 	.service_items-content {
-		background: #241b10;
+		background: transparent;
 		border: 1px solid #f2cd72;
 		box-sizing: border-box;
 		border-radius: 5px;
@@ -82,6 +83,7 @@
 		line-height: 1.375;
 		font-family: "Lora", serif;
 		color: #ffdc73;
+		font-weight: 600;
 	}
 	.service_items-text {
 		font-weight: 400;

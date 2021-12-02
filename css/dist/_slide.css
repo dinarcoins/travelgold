@@ -5,6 +5,7 @@
 
 .swiper-slide {
   text-align: center;
+  width: 100%;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,6 +26,28 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: relative;
+}
+
+.slide_img-bg-top {
+  width: 100%;
+  height: 440px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: linear-gradient(180deg, #241e15 21.91%, rgba(36, 30, 21, 0.848958) 42.69%, rgba(36, 30, 21, 0) 90.72%);
+}
+
+.slide_img-bg-bottom {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background: linear-gradient(180deg, #241e15 21.91%, rgba(36, 30, 21, 0.78) 42.69%, rgba(36, 30, 21, 0) 90.72%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
@@ -43,16 +66,17 @@
 }
 .slide .slide_items {
   position: absolute;
-  top: 40%;
+  top: 33%;
   right: 20%;
   background: rgba(103, 48, 8, 0.3);
   width: 479px;
   height: 459px;
   padding: 4.375rem 1.875rem;
+  z-index: 15;
 }
 .slide .slide-border {
   position: absolute;
-  top: 38%;
+  top: 31%;
   right: 19%;
   width: 515px;
   height: 499px;

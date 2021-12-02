@@ -1,9 +1,9 @@
 var swiper = new Swiper(".mySwiper", {
 	loop: true,
-	// autoplay: {
-	// 	delay: 2000,
-	// },
-	// speed: 800,
+	autoplay: {
+		delay: 2000,
+	},
+	speed: 800,
 	pagination: {
 		el: ".swiper-pagination",
 	},
@@ -20,10 +20,11 @@ var swiper = new Swiper(".mySwiper_booking", {
 	},
 });
 var swiper = new Swiper(".mySwiper_comments", {
-	slidesPerView: 2,
+	slidesPerView: 1,
 	spaceBetween: 30,
-	slidesPerGroup: 2,
+	slidesPerGroup: 1,
 	loop: true,
+
 	autoplay: {
 		delay: 2000,
 	},
@@ -37,14 +38,21 @@ var swiper = new Swiper(".mySwiper_comments", {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
 	},
+	breakpoints: {
+		// when window width is >= 320px
+		1024: {
+			slidesPerView: 2,
+			spaceBetween: 20,
+			slidesPerGroup: 2,
+		},
+	},
 });
 var swiper = new Swiper(".mySwiper_ad", {
-	slidesPerView: 3,
-	spaceBetween: 30,
-	slidesPerGroup: 3,
+	slidesPerView: 1,
+	slidesPerGroup: 1,
 	loop: true,
 	autoplay: {
-		delay: 2000,
+		delay: 1000,
 	},
 	loopFillGroupWithBlank: true,
 	pagination: {
@@ -55,8 +63,16 @@ var swiper = new Swiper(".mySwiper_ad", {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
 	},
+	breakpoints: {
+		// when window width is >= 320px
+		1024: {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			slidesPerGroup: 3,
+		},
+	},
 });
-// smail navbar header when scroll down
+// small navbar header when scroll down
 window.onscroll = function () {
 	scrollFunction();
 };
@@ -68,7 +84,7 @@ function scrollFunction() {
 		document.getElementById("header-logo").style.width = "50%";
 		document.getElementById("header-logo").style.transition = "0.4s";
 		document.getElementById("header-mid").style.display = "none";
-		document.getElementById("bg-header-top").style.height = "130px";
+		document.getElementById("bg-header-top").style.height = "85px";
 	} else {
 		document.getElementById("header-top").style.padding = "9px 0px";
 		document.getElementById("header-top").style.transition = "0.4s";
@@ -98,3 +114,9 @@ function myFunction() {
 	var element = document.body;
 	element.classList.toggle("dark-mode");
 }
+// mobile menu
+// document.querySelector(".mobile-toggle").addEventListener("click", () => {
+// 	document.querySelector(".nav").classList.toggle("active");
+// 	document.querySelector(".mobile-overlay").classList.toggle("active");
+// 	document.querySelector("header").classList.toggle("active");
+// });

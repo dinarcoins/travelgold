@@ -2,6 +2,8 @@
 	position: relative;
 	padding-bottom: 13.5rem;
 	.reason_content {
+		position: relative;
+		z-index: 1;
 		.reason-text {
 			font-weight: 400;
 			font-size: 1rem;
@@ -28,6 +30,7 @@
 				text-transform: uppercase;
 				color: #ffdc73;
 				font-weight: 500;
+				font-weight: 600;
 			}
 			.reason-items-text {
 				font-weight: 400;
@@ -41,15 +44,24 @@
 		}
 	}
 	.img-bg {
-		.flower-left {
+		.flower-left-dark,
+		.flower-left-light {
 			position: absolute;
 			bottom: 0;
 			left: 0;
+			z-index: 0;
 		}
-		.flower-right {
+		.flower-right-dark,
+		.flower-right-light {
 			position: absolute;
 			bottom: 0;
 			right: 0;
+			z-index: 0;
+		}
+		.flower-left-light,
+		.flower-right-light {
+			display: none;
+			z-index: 0;
 		}
 	}
 }

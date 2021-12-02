@@ -1,0 +1,61 @@
+@media screen and (max-width: 1024px) {
+  .header_bottom,
+.header_mid,
+.header_main .bg_header-top,
+.register .register_content .register-border-right,
+.register .register_content .register-border-left,
+.slide {
+    display: none !important;
+  }
+
+  .title-main h1.title {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  .title-main img {
+    width: 65%;
+  }
+
+  .service .service_content .service_border-left,
+.service .service_content .service_border-right {
+    display: none;
+  }
+
+  .banner::after {
+    height: 20px;
+  }
+
+  .register .register-title {
+    font-size: 1.1rem;
+  }
+
+  .register .register-input {
+    flex-direction: column;
+    padding: 0 15px;
+    height: auto;
+  }
+  .register .register-input input {
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+  }
+
+  .breaknew {
+    padding: 10px 0 0 0;
+  }
+  .breaknew .breaknew-text-1 {
+    font-size: 2.1rem;
+    line-height: 2.25rem;
+  }
+  .breaknew .breaknew-text-2 {
+    font-size: 0.875rem;
+  }
+
+  .handbook .handbook_post-title {
+    font-size: 0.875rem;
+  }
+  .handbook .handbook_post-text {
+    font-size: 0.6rem;
+  }
+}

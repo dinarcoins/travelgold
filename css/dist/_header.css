@@ -83,6 +83,19 @@
   font-size: 1.25rem;
   line-height: 1.875;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
+}
+
+.banner {
+  position: relative;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 190px;
+  background: linear-gradient(1.01deg, #241e15 43.87%, rgba(36, 30, 21, 0.53) 61.79%, rgba(36, 30, 21, 0) 92.01%);
 }
