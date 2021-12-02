@@ -19,13 +19,18 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
 	<!-- link css swiper -->
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 </head>
 
 
 <body>
+	<a id="button-backtotop">
+		<img src="./img/backtotop.png" alt="backtotop">
+	</a>
+
 	<header>
 		<div class="header_main position-fixed w-100">
-			<div class="header_top ">
+			<div class="header_top " id="header-top">
 				<div class="container">
 					<div class="row">
 						<div class="col-6">
@@ -54,7 +59,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="header_mid pt-4 position-relative">
+			<div class="header_mid pt-4 position-relative" id="header-mid">
 				<div class="container">
 					<div class="row">
 						<div class="col-6">
@@ -86,7 +91,7 @@
 							</ul>
 						</div>
 						<div class="coi-2 logo-bg">
-							<img class="logo" src="./img/logotravelgold.png" alt="logotravelgold">
+							<img class="logo" id="header-logo" src="./img/logotravelgold.png" alt="logotravelgold">
 						</div>
 						<div class="coi-5">
 							<ul class="list_menu">
@@ -98,7 +103,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="bg_header-top position-absolute"></div>
+			<div class="bg_header-top position-absolute" id="bg-header-top"></div>
 		</div>
 		<div class="banner">
 			<img src="./img/header_banner.png" alt="header_banner">
@@ -278,168 +283,180 @@
 						<div class="tourhot_content mt-4">
 							<div class="row">
 								<div class="col-4">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-											<span class="old-price">2.900.000đ</span>
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-star.png" alt="icon-star">
-											Đánh giá: 9.6 Rất tốt
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-									</div>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+												<span class="old-price">2.900.000đ</span>
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-star.png" alt="icon-star">
+												Đánh giá: 9.6 Rất tốt
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-4">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-											<span class="old-price">2.900.000đ</span>
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-star.png" alt="icon-star">
-											Đánh giá: 9.6 Rất tốt
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-									</div>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+												<span class="old-price">2.900.000đ</span>
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-star.png" alt="icon-star">
+												Đánh giá: 9.6 Rất tốt
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-4">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-											<span class="old-price">2.900.000đ</span>
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-star.png" alt="icon-star">
-											Đánh giá: 9.6 Rất tốt
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-									</div>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+												<span class="old-price">2.900.000đ</span>
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-star.png" alt="icon-star">
+												Đánh giá: 9.6 Rất tốt
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="row mt-4 mb-4">
 								<div class="col-4">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-											<span class="old-price">2.900.000đ</span>
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-star.png" alt="icon-star">
-											Đánh giá: 9.6 Rất tốt
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-									</div>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+												<span class="old-price">2.900.000đ</span>
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-star.png" alt="icon-star">
+												Đánh giá: 9.6 Rất tốt
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-4">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-											<span class="old-price">2.900.000đ</span>
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-star.png" alt="icon-star">
-											Đánh giá: 9.6 Rất tốt
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-									</div>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+												<span class="old-price">2.900.000đ</span>
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-star.png" alt="icon-star">
+												Đánh giá: 9.6 Rất tốt
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-4">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-											<span class="old-price">2.900.000đ</span>
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-star.png" alt="icon-star">
-											Đánh giá: 9.6 Rất tốt
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-									</div>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+												<span class="old-price">2.900.000đ</span>
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-star.png" alt="icon-star">
+												Đánh giá: 9.6 Rất tốt
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="readmore-btn">
@@ -461,190 +478,206 @@
 						<div class="tourhot_content mt-4">
 							<div class="row">
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="row mb-4">
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-1.png" alt="tourhot-1">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-1.png" alt="tourhot-1">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="readmore-btn">
@@ -738,7 +771,8 @@
 					<!-- Swiper -->
 					<div class="swiper mySwiper">
 						<div class="swiper-wrapper">
-							<div class="swiper-slide"><img src="./img/slide-bg.png" alt="slide-bg">
+							<div class="swiper-slide">
+								<img src="./img/slide-bg.png" alt="slide-bg">
 								<div class="container">
 									<img class="slide-border" src="./img/slide_items-border.png" alt="slide_items-border">
 									<div class="slide_items">
@@ -1228,195 +1262,206 @@
 						<div class="tourhot_content mt-4">
 							<div class="row">
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-4.png" alt="tourhot-4">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-4.png" alt="tourhot-4">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-4.png" alt="tourhot-4">
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-4.png" alt="tourhot-4">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-4.png" alt="tourhot-4">
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-4.png" alt="tourhot-4">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-4.png" alt="tourhot-4">
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-4.png" alt="tourhot-4">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="row mb-4">
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-4.png" alt="tourhot-4">
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-4.png" alt="tourhot-4">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-4.png" alt="tourhot-4">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-4.png" alt="tourhot-4">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-4.png" alt="tourhot-4">
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-4.png" alt="tourhot-4">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
-
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 								<div class="col-3">
-									<div class="tourhot_content-img">
-										<img src="./img/tourhot-4.png" alt="tourhot-4">
-									</div>
-									<div class="tourhot_content-items text-left">
-										<h4 class="section-title mt-4">
-											hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-										</h4>
+									<a href="#">
+										<div class="tourhot_content-img">
+											<img src="./img/tourhot-4.png" alt="tourhot-4">
+										</div>
+										<div class="tourhot_content-items text-left">
+											<h4 class="section-title mt-4">
+												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
+											</h4>
 
-										<p class="info-text">
-											<img src="./img/icon-plane.png" alt="icon-plane">
-											Khởi hành: hàng ngày
-										</p>
-										<p class="info-text">
-											<img src="./img/icon-calendar.png" alt="icon-calendar">
-											3 Ngày 2 Đêm
-										</p>
-										<p class="price-text">
-											<img src="./img/icon-dollar.png" alt="icon-dollar">
-											2.200.000₫
-										</p>
-									</div>
+											<p class="info-text">
+												<img src="./img/icon-plane.png" alt="icon-plane">
+												Khởi hành: hàng ngày
+											</p>
+											<p class="info-text">
+												<img src="./img/icon-calendar.png" alt="icon-calendar">
+												3 Ngày 2 Đêm
+											</p>
+											<p class="price-text">
+												<img src="./img/icon-dollar.png" alt="icon-dollar">
+												2.200.000₫
+											</p>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="readmore-btn">
@@ -1575,7 +1620,7 @@
 				</section>
 				<!-- end breaknew -->
 				<!-- cam nang du lich -->
-				<section class="camnang">
+				<section class="handbook">
 					<div class="title-main">
 						<img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
 						<h1 class="title">
@@ -1583,103 +1628,109 @@
 						</h1>
 						<img class="title-items-2" src="./img/title-items2.svg" alt="title-items2">
 					</div>
-					<div class="camnang_content mt-3">
+					<div class="handbook_content mt-3">
 						<div class="text-center">
 							<div class="container">
 								<div class="row">
 									<div class="col-6">
-										<div class="camnang_khampha-title">
+										<div class="handbook_khampha-title">
 											<div class=" d-flex align-items-center justify-content-between">
-												<h3 class="camnang-title">KHÁM PHÁ</h3>
-												<a class="camnang_read-all" href="#">Xem tất cả <img src="./img/camnang-icon-right.svg"
-														alt="camnang-icon-right">
+												<h3 class="handbook-title">KHÁM PHÁ</h3>
+												<a class="handbook_read-all" href="#">Xem tất cả <img src="./img/handbook-icon-right.svg"
+														alt="handbook-icon-right">
 												</a>
 											</div>
-											<div class="camnang_khampha-content">
-												<div class="camnang_post mb-2">
-													<img src="./img/camnang_post.png" alt="camnang_post">
-													<p class="camnang_post-date"><img src="./img/icon-calendar.png" alt="icon-calendar">
+											<div class="handbook_khampha-content">
+												<div class="handbook_post mb-2">
+													<a href="#">
+														<img src="./img/handbook_post.png" alt="handbook_post">
+
+													</a>
+													<p class="handbook_post-date"><img src="./img/icon-calendar.png" alt="icon-calendar">
 														22/06/2021</p>
-													<a href="#" class="camnang_post-title">Du lịch nông thôn sẽ là chủ lực phục hồi du lịch Việt
+													<a href="#" class="handbook_post-title">Du lịch nông thôn sẽ là chủ lực phục hồi du lịch Việt
 														Nam</a>
-													<p class="camnang_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+													<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
 														egestas purus diam leo mi tellus. Convallis mauris, pulvinar sit aenean dictumst velit
 														lorem dasdasdfd asdas</p>
 												</div>
 												<div class="row">
-													<div class="col-6 d-flex justify-content-between align-items-center ">
-														<img class="camnang-img" src="./img/camnang_post.png" alt="">
-														<p class="camnang_items-title">Những điểm du lịch rùng rợn nhưng được yêu thích</p>
+													<div class="col-6  ">
+														<a href="#" class="d-flex justify-content-between align-items-center">
+															<img class="handbook-img" src="./img/handbook_post.png" alt="">
+															<p class="handbook_items-title">Những điểm du lịch rùng rợn nhưng được yêu thích</p>
+														</a>
 													</div>
 													<div class="col-6 d-flex justify-content-between align-items-center ">
-														<img class="camnang-img" src="./img/camnang_post.png" alt="">
-														<p class="camnang_items-title">Những điểm du lịch rùng rợn nhưng được yêu thích</p>
+														<a href="#" class="d-flex justify-content-between align-items-center">
+															<img class="handbook-img" src="./img/handbook_post.png" alt="">
+															<p class="handbook_items-title">Những điểm du lịch rùng rợn nhưng được yêu thích</p>
+														</a>
 													</div>
-
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-6">
-										<div class="camnang_dulich">
+										<div class="handbook_travel">
 											<div class=" d-flex align-items-center justify-content-between">
-												<h3 class="camnang-title">MẸO DU LỊCH</h3>
-												<a class="camnang_read-all" href="#">Xem tất cả <img src="./img/camnang-icon-right.svg"
-														alt="camnang-icon-right">
+												<h3 class="handbook-title">MẸO DU LỊCH</h3>
+												<a class="handbook_read-all" href="#">Xem tất cả <img src="./img/handbook-icon-right.svg"
+														alt="handbook-icon-right">
 												</a>
 											</div>
-											<div class="camnang_dulich-content">
-												<div class="camnang_dulich-items">
-													<img src="./img/camnang_post.png" alt="">
+											<div class="handbook_travel-content">
+												<div class="handbook_travel-items">
+													<img src="./img/handbook_post.png" alt="">
 													<div>
-														<a href="#" class="camnang_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="camnang_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
 															etiam et cras sed mi egestas orci. Nunc tempor</p>
 													</div>
 												</div>
-												<div class="camnang_dulich-items mt-3	">
-													<img src="./img/camnang_post.png" alt="">
+												<div class="handbook_travel-items mt-3	">
+													<img src="./img/handbook_post.png" alt="">
 													<div>
-														<a href="#" class="camnang_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="camnang_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
 															etiam et cras sed mi egestas orci. Nunc tempor</p>
 													</div>
 												</div>
-												<div class="camnang_dulich-items mt-3	">
-													<img src="./img/camnang_post.png" alt="">
+												<div class="handbook_travel-items mt-3	">
+													<img src="./img/handbook_post.png" alt="">
 													<div>
-														<a href="#" class="camnang_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="camnang_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
 															etiam et cras sed mi egestas orci. Nunc tempor</p>
 													</div>
 												</div>
-												<div class="camnang_dulich-items mt-3	">
-													<img src="./img/camnang_post.png" alt="">
+												<div class="handbook_travel-items mt-3	">
+													<img src="./img/handbook_post.png" alt="">
 													<div>
-														<a href="#" class="camnang_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="camnang_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
 															etiam et cras sed mi egestas orci. Nunc tempor</p>
 													</div>
 												</div>
-												<div class="camnang_dulich-items mt-3	">
-													<img src="./img/camnang_post.png" alt="">
+												<div class="handbook_travel-items mt-3	">
+													<img src="./img/handbook_post.png" alt="">
 													<div>
-														<a href="#" class="camnang_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="camnang_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
 															etiam et cras sed mi egestas orci. Nunc tempor</p>
 													</div>
 												</div>
-												<div class="camnang_dulich-items mt-3	">
-													<img src="./img/camnang_post.png" alt="">
+												<div class="handbook_travel-items mt-3	">
+													<img src="./img/handbook_post.png" alt="">
 													<div>
-														<a href="#" class="camnang_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="camnang_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
 															etiam et cras sed mi egestas orci. Nunc tempor</p>
 													</div>
 												</div>
@@ -1696,6 +1747,7 @@
 		</div>
 	</div>
 	<footer class="t-footer">
+		<button class="button-night-mode" onclick="myFunction()"><img src="./img/sun.png" alt="sun"></button>
 		<div class="text-center">
 			<div class="footer_top">
 				<div class="container">
@@ -1712,9 +1764,6 @@
 				</div>
 			</div>
 			<div class="footer_mid">
-				<!-- <div class="bg-footer">
-
-				</div> -->
 				<div class="container">
 					<div class="footer_mid-items">
 						<div class="row text-capitalize">
@@ -1756,6 +1805,16 @@
 									<li class="mb-3"><a href="#">câu hỏi thường gặp</a></li>
 									<li class="mb-3"><a href="#">liên hệ</a></li>
 								</ul>
+								<div class="footer-social">
+									<ul>
+										<li><a href="#">
+												<img src="" alt="">
+											</a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+									</ul>
+								</div>
 							</div>
 							<div class="col-3 pt-3 float-left text-left">
 								<h5 class="footer-title mb-5">
@@ -1763,7 +1822,6 @@
 									<p>tin và ưu đãi</p>
 								</h5>
 								<p class="footer-text">Đăng ký nhận tin để lên kế hoạch cho kỳ nghỉ tới ngay từ bây giờ:</p>
-
 								<input class="mt-2" type="text" placeholder="Tên của bạn">
 								<input class="mt-2" type="text" placeholder="Email của bạn">
 								<button class="d-block text-capitalize mt-3 bg-transparent shadow-none border-0">đăng kí <img
@@ -1773,7 +1831,24 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer_bottom"></div>
+			<div class="footer_bottom">
+				<div class="container">
+					<div class="footer_bottom-items">
+						<div class="row">
+							<div class="col-6 text-left">
+								<ul>
+									<li><a href="#">TRAVEL GOLD</a></li>
+									<li><a href="#">Chính sách bảo mật</a></li>
+									<li><a href="#">Điều khoản dịch vụ</a></li>
+								</ul>
+							</div>
+							<div class="col-6">
+								<p class="footer-text">© Copyright 2021. All Rights Reserved. Designed by Tech5S</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</footer>
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -1786,6 +1861,8 @@
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<!-- Link main js -->
 	<script src="./js/main.js"></script>
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </body>
 
 </html>

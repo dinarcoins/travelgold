@@ -1,0 +1,60 @@
+.comments .comment_items {
+  background: #18140e;
+  border-radius: 5px;
+  padding: 2.906rem 2.398rem;
+  border: 1px solid #f2cd72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+.comments .comment_items img {
+  max-width: 130px;
+}
+.comments .mySwiper_comments {
+  padding: 65px 15px;
+}
+.comments .comments_name {
+  font-family: "Lora", serif;
+  font-size: 1.125rem;
+  line-height: 1.625;
+  text-align: center;
+  color: #f5cd62;
+  font-weight: 600;
+}
+.comments .comments_info {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25;
+}
+.comments .comments_text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375;
+  text-align: center;
+}
+.comments .swiper-button-prev:after,
+.comments .swiper-rtl .swiper-button-next:after,
+.comments .swiper-button-next:after,
+.comments .swiper-rtl .swiper-button-prev:after {
+  display: none;
+}
+.comments .swiper-button-next {
+  width: 36px;
+  height: 36px;
+  background: rgba(36, 30, 21, 0.5);
+  box-shadow: -1px -1px 3px rgba(247, 229, 132, 0.15), 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 50%;
+  right: 5px;
+}
+.comments .swiper-button-prev {
+  width: 36px;
+  height: 36px;
+  background: rgba(36, 30, 21, 0.5);
+  box-shadow: -1px -1px 3px rgba(247, 229, 132, 0.15), 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 50%;
+  left: 5px;
+}

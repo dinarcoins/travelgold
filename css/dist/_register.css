@@ -1,0 +1,80 @@
+.register {
+  padding-top: 30px;
+}
+.register .register_content {
+  padding: 3.524rem 0;
+  width: 100%;
+  position: relative;
+  border: 1px solid #f2cd72;
+  border-radius: 5px;
+}
+.register .register_content .register-border-left {
+  position: absolute;
+  left: -28px;
+  top: 0;
+}
+.register .register_content .register-border-right {
+  position: absolute;
+  right: -30px;
+  top: 0;
+}
+.register .register-title {
+  font-family: "Lora", serif;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+}
+.register .register-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375;
+  text-align: center;
+  color: #ffffff;
+}
+.register .register-input {
+  height: 2.875rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.register .register-input button {
+  background: linear-gradient(90.92deg, #f7c631 9.43%, #fff9ab 51.41%, #f7ca3a 100%);
+  border-radius: 5px;
+  padding: 0.75rem 1.674rem;
+  color: #17130d;
+  font-size: 1rem;
+  line-height: 1.375;
+  text-align: center;
+  font-family: "Lora", serif;
+  outline: 0;
+  box-shadow: none;
+  border: 0;
+  font-weight: 600;
+}
+.register .register-input input {
+  margin-right: 1.5rem;
+  width: 29.5rem;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  border: 1px solid #f2cd72;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375;
+  color: #ffffff;
+  padding-left: 15px;
+  font-weight: 500;
+}
+.register .register-input input::placeholder {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375;
+  color: #ffffff;
+}

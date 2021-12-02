@@ -1,11 +1,15 @@
 .header_main {
 	max-width: 100%;
 	z-index: 10;
+	#header-top {
+		transition: 1s;
+	}
 	.header_top {
 		background-color: #b88f4a;
 		padding: 0.563rem 0;
 		position: relative;
 		z-index: 6;
+		transition: 0.5s;
 		.header_btn {
 			color: #ffffff;
 			font-size: 0.875rem;
@@ -76,6 +80,7 @@
 			border-radius: 50%;
 			position: relative;
 			z-index: 12;
+			width: 50%;
 		}
 		ul.list_menu {
 			display: grid;
