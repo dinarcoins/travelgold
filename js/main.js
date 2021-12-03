@@ -109,7 +109,7 @@ btn.on("click", function (e) {
 	$("html, body").animate({ scrollTop: 0 }, "300");
 });
 // button change color theme
-function myFunction() {
+function darkmodeFunction() {
 	var element = document.body;
 	element.classList.toggle("dark-mode");
 }

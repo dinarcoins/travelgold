@@ -88,6 +88,10 @@ ul li {
 	overflow: hidden;
 	max-width: 100%;
 	font-weight: 600;
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
 }
 .price-text {
 	font-family: "Lora", serif;

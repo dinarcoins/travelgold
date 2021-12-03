@@ -111,7 +111,7 @@ btn.on("click", function (e) {
   }, "300");
 }); // button change color theme
 
-function myFunction() {
+function darkmodeFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 } // mobile menu
