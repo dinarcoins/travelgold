@@ -34,7 +34,6 @@
   .register .register-title {
     font-size: 1.1rem;
   }
-
   .register .register-input {
     flex-direction: column;
     padding: 0 15px;
@@ -80,7 +79,6 @@
     padding: 10px 0;
     margin-bottom: 15px;
   }
-
   .reason .img-bg .flower-left-dark,
 .reason .img-bg .flower-left-light,
 .reason .img-bg .flower-right-dark,

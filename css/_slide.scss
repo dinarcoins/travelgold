@@ -57,11 +57,12 @@
 	);
 	transform: matrix(1, 0, 0, -1, 0, 0);
 }
+
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
 	.swiper-pagination-bullet {
-	width: 17px;
-	height: 17px;
+	width: 10px;
+	height: 10px;
 }
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets

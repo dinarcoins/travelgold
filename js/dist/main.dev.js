@@ -65,11 +65,10 @@ var swiper = new Swiper(".mySwiper_ad", {
     prevEl: ".swiper-button-prev"
   },
   breakpoints: {
-    // when window width is >= 320px
     1024: {
       slidesPerView: 3,
       spaceBetween: 30,
-      slidesPerGroup: 3
+      slidesPerGroup: 1
     }
   }
 }); // small navbar header when scroll down
@@ -110,7 +109,7 @@ btn.on("click", function (e) {
   $("html, body").animate({
     scrollTop: 0
   }, "300");
-}); // dark mode
+}); // button change color theme
 
 function myFunction() {
   var element = document.body;

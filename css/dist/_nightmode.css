@@ -34,6 +34,15 @@
 .dark-mode .service .service_items-content {
   color: #4d4d4d;
 }
+.dark-mode .service_items-content input {
+  color: #4d4d4d;
+}
+.dark-mode .service-input-datalist input {
+  color: #4d4d4d;
+}
+.dark-mode .service-input-datalist input::placeholder {
+  color: #4d4d4d;
+}
 .dark-mode .reason .flower-left-light,
 .dark-mode .reason .flower-right-light {
   display: block;
@@ -121,6 +130,7 @@
 }
 .dark-mode .handbook .handbook_post-title {
   color: #241e15;
+  font-weight: 600;
 }
 .dark-mode .handbook .handbook_post-text,
 .dark-mode .handbook .handbook_post-date {
@@ -135,6 +145,9 @@
 }
 .dark-mode .footer_top .footer_top-items ul li a {
   color: #241e15;
+}
+.dark-mode .footer_top .footer_top-items ul li a:hover {
+  color: #dc9c12;
 }
 .dark-mode .footer_mid {
   background: #f3f2e4;

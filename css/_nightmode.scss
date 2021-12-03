@@ -56,6 +56,17 @@
 			color: #4d4d4d;
 		}
 	}
+	.service_items-content input {
+		color: #4d4d4d;
+	}
+	.service-input-datalist {
+		input {
+			color: #4d4d4d;
+			&::placeholder {
+				color: #4d4d4d;
+			}
+		}
+	}
 	// reason
 	.reason {
 		.flower-left-light,
@@ -179,6 +190,7 @@
 		}
 		.handbook_post-title {
 			color: #241e15;
+			font-weight: 600;
 		}
 		.handbook_post-text,
 		.handbook_post-date {
@@ -198,6 +210,9 @@
 				li {
 					a {
 						color: #241e15;
+						&:hover {
+							color: #dc9c12;
+						}
 					}
 				}
 			}

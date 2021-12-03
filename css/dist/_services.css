@@ -16,21 +16,36 @@
   border: 0;
   background-color: transparent;
 }
+.service .service-input-datalist input {
+  background: transparent;
+  border: 1px solid #ffdc73;
+  color: #ffdc73;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.5rem 0.938rem;
+  font-weight: 600;
+}
+.service .service-input-datalist input::placeholder {
+  color: #ffdc73;
+}
 .service .service_content {
   border-radius: 5px;
   border: 1px solid #ffdc73;
   position: relative;
   padding: 15px 15px 30px 15px;
+  color: #ffdc73;
 }
 .service .service_content .service_border-left {
   position: absolute;
   top: 0;
-  left: -45px;
+  left: -47px;
+  width: auto;
 }
 .service .service_content .service_border-right {
   position: absolute;
   top: 0;
-  right: -45px;
+  right: -47px;
+  width: auto;
 }
 .service .service_items-content {
   background: transparent;

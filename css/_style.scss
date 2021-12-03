@@ -5,7 +5,10 @@
 	outline: 0;
 	box-sizing: border-box;
 }
-
+h1,
+h2 {
+	user-select: none;
+}
 img {
 	max-width: 100%;
 	max-height: 100%;
@@ -31,7 +34,7 @@ ul li {
 }
 .title-main {
 	h1.title {
-		margin-top: 20px;
+		margin-top: 15px;
 		font-family: "Lora", serif;
 		font-size: 2rem;
 		line-height: 2.813rem;
@@ -39,6 +42,38 @@ ul li {
 		text-transform: uppercase;
 		color: #ffdc73;
 		font-weight: 600;
+		position: relative;
+		&::after {
+			content: "";
+			width: 20%;
+			position: absolute;
+			height: 2px;
+			background: linear-gradient(
+				90deg,
+				#daa618 48.06%,
+				rgba(218, 166, 24, 0) 103.88%
+			);
+			display: block;
+			margin: 0 auto;
+			bottom: -15px;
+			left: 49%;
+		}
+		&::before {
+			content: "";
+			width: 20%;
+			position: absolute;
+			height: 2px;
+			background: linear-gradient(
+				90deg,
+				#daa618 48.06%,
+				rgba(218, 166, 24, 0) 103.88%
+			);
+			transform: matrix(-1, 0, 0, 1, 0, 0);
+			display: block;
+			margin: 0 auto;
+			bottom: -15px;
+			right: 49%;
+		}
 	}
 }
 .section-title {

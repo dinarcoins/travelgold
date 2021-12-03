@@ -25,17 +25,19 @@
 	.banner::after {
 		height: 20px;
 	}
-	.register .register-title {
-		font-size: 1.1rem;
-	}
-	.register .register-input {
-		flex-direction: column;
-		padding: 0 15px;
-		height: auto;
-		input {
-			width: 100%;
-			padding: 10px 10px;
-			margin-bottom: 10px;
+	.register {
+		.register-title {
+			font-size: 1.1rem;
+		}
+		.register-input {
+			flex-direction: column;
+			padding: 0 15px;
+			height: auto;
+			input {
+				width: 100%;
+				padding: 10px 10px;
+				margin-bottom: 10px;
+			}
 		}
 	}
 	.breaknew {
@@ -71,13 +73,16 @@
 			padding: 10px 0;
 			margin-bottom: 15px;
 		}
+		.img-bg {
+			.flower-left-dark,
+			.flower-left-light,
+			.flower-right-dark,
+			.flower-right-light {
+				width: 20%;
+			}
+		}
 	}
-	.reason .img-bg .flower-left-dark,
-	.reason .img-bg .flower-left-light,
-	.reason .img-bg .flower-right-dark,
-	.reason .img-bg .flower-right-light {
-		width: 20%;
-	}
+
 	.footer_mid .footer-title {
 		margin-bottom: 10px;
 	}

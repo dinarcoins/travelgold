@@ -110,12 +110,21 @@
 }
 
 .header_main .header_bottom ul.list_menu {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0;
+}
+
+.header_main .header_bottom ul.list_menu li {
+  margin: 0 2rem;
 }
 
 .header_main .header_bottom ul.list_menu li a {
@@ -125,6 +134,12 @@
   color: #ffffff;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.header_main .header_bottom ul.list_menu li a:hover {
+  background: -webkit-linear-gradient(#f7c631, #fff9ab, #f7ca3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner {
@@ -138,7 +153,24 @@
   left: 0;
   width: 100%;
   height: 190px;
-  background: linear-gradient(1.01deg, #241e15 43.87%, rgba(36, 30, 21, 0.53) 61.79%, rgba(36, 30, 21, 0) 92.01%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(43.87%, #241e15), color-stop(61.79%, rgba(36, 30, 21, 0.53)), color-stop(92.01%, rgba(36, 30, 21, 0)));
+  background: linear-gradient(0deg, #241e15 43.87%, rgba(36, 30, 21, 0.53) 61.79%, rgba(36, 30, 21, 0) 92.01%);
+}
+
+.t-footer {
+  position: relative;
+}
+
+.t-footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/img/bg-footer.png") repeat center center;
+  opacity: 0.02;
+  z-index: 0;
 }
 
 .footer_top {
@@ -180,22 +212,11 @@
   line-height: 1.375;
   color: #ffdc73;
   text-transform: uppercase;
+  text-align: center;
 }
 
-.t-footer {
-  position: relative;
-}
-
-.t-footer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url("/img/bg-footer.png") repeat center center;
-  opacity: 0.02;
-  z-index: 0;
+.footer_top .footer_top-items ul li a:hover {
+  color: #ffffff;
 }
 
 .footer_mid {
@@ -354,6 +375,14 @@
           box-sizing: border-box;
 }
 
+h1,
+h2 {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -386,7 +415,7 @@ ul li {
 }
 
 .title-main h1.title {
-  margin-top: 20px;
+  margin-top: 15px;
   font-family: "Lora", serif;
   font-size: 2rem;
   line-height: 2.813rem;
@@ -394,6 +423,35 @@ ul li {
   text-transform: uppercase;
   color: #ffdc73;
   font-weight: 600;
+  position: relative;
+}
+
+.title-main h1.title::after {
+  content: "";
+  width: 20%;
+  position: absolute;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(48.06%, #daa618), color-stop(103.88%, rgba(218, 166, 24, 0)));
+  background: linear-gradient(90deg, #daa618 48.06%, rgba(218, 166, 24, 0) 103.88%);
+  display: block;
+  margin: 0 auto;
+  bottom: -15px;
+  left: 49%;
+}
+
+.title-main h1.title::before {
+  content: "";
+  width: 20%;
+  position: absolute;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(48.06%, #daa618), color-stop(103.88%, rgba(218, 166, 24, 0)));
+  background: linear-gradient(90deg, #daa618 48.06%, rgba(218, 166, 24, 0) 103.88%);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  display: block;
+  margin: 0 auto;
+  bottom: -15px;
+  right: 49%;
 }
 
 .section-title {
@@ -523,23 +581,52 @@ span.old-price {
   background-color: transparent;
 }
 
+.service .service-input-datalist input {
+  background: transparent;
+  border: 1px solid #ffdc73;
+  color: #ffdc73;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.5rem 0.938rem;
+  font-weight: 600;
+}
+
+.service .service-input-datalist input::-webkit-input-placeholder {
+  color: #ffdc73;
+}
+
+.service .service-input-datalist input:-ms-input-placeholder {
+  color: #ffdc73;
+}
+
+.service .service-input-datalist input::-ms-input-placeholder {
+  color: #ffdc73;
+}
+
+.service .service-input-datalist input::placeholder {
+  color: #ffdc73;
+}
+
 .service .service_content {
   border-radius: 5px;
   border: 1px solid #ffdc73;
   position: relative;
   padding: 15px 15px 30px 15px;
+  color: #ffdc73;
 }
 
 .service .service_content .service_border-left {
   position: absolute;
   top: 0;
-  left: -45px;
+  left: -47px;
+  width: auto;
 }
 
 .service .service_content .service_border-right {
   position: absolute;
   top: 0;
-  right: -45px;
+  right: -47px;
+  width: auto;
 }
 
 .service .service_items-content {
@@ -677,6 +764,10 @@ span.old-price {
 .tourhot .tourhot_content-img img {
   border-radius: 5px;
   border: 2px solid #f0b71a;
+}
+
+.tourhot_content {
+  margin-top: 3rem;
 }
 
 .ad {
@@ -849,8 +940,8 @@ span.old-price {
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
 .swiper-pagination-bullet {
-  width: 17px;
-  height: 17px;
+  width: 10px;
+  height: 10px;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
@@ -1160,6 +1251,10 @@ span.old-price {
   font-size: 1rem;
   line-height: 1.375;
   color: #ffffff;
+}
+
+.comments {
+  margin-top: 50px;
 }
 
 .comments .comment_items {
@@ -1487,6 +1582,30 @@ span.old-price {
   color: #4d4d4d;
 }
 
+.dark-mode .service_items-content input {
+  color: #4d4d4d;
+}
+
+.dark-mode .service-input-datalist input {
+  color: #4d4d4d;
+}
+
+.dark-mode .service-input-datalist input::-webkit-input-placeholder {
+  color: #4d4d4d;
+}
+
+.dark-mode .service-input-datalist input:-ms-input-placeholder {
+  color: #4d4d4d;
+}
+
+.dark-mode .service-input-datalist input::-ms-input-placeholder {
+  color: #4d4d4d;
+}
+
+.dark-mode .service-input-datalist input::placeholder {
+  color: #4d4d4d;
+}
+
 .dark-mode .reason .flower-left-light,
 .dark-mode .reason .flower-right-light {
   display: block;
@@ -1615,6 +1734,7 @@ span.old-price {
 
 .dark-mode .handbook .handbook_post-title {
   color: #241e15;
+  font-weight: 600;
 }
 
 .dark-mode .handbook .handbook_post-text,
@@ -1633,6 +1753,10 @@ span.old-price {
 
 .dark-mode .footer_top .footer_top-items ul li a {
   color: #241e15;
+}
+
+.dark-mode .footer_top .footer_top-items ul li a:hover {
+  color: #dc9c12;
 }
 
 .dark-mode .footer_mid {

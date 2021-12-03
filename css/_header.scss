@@ -1,6 +1,7 @@
 .header_main {
 	max-width: 100%;
 	z-index: 10;
+	// background behide the logo
 	// .logo-bg {
 	// 	position: relative;
 	// 	&::before {
@@ -99,14 +100,13 @@
 			width: 50%;
 		}
 		ul.list_menu {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			grid-gap: 2rem;
-			// display: flex;
-			// justify-content: space-between;
-			// align-items: center;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 			padding: 0;
 			li {
+				margin: 0 2rem;
 				a {
 					font-family: "Lora", serif;
 					font-size: 1.25rem;
@@ -114,6 +114,11 @@
 					color: #ffffff;
 					font-weight: 600;
 					text-transform: uppercase;
+					&:hover {
+						background: -webkit-linear-gradient(#f7c631, #fff9ab, #f7ca3a);
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+					}
 				}
 			}
 		}
@@ -129,7 +134,7 @@
 		width: 100%;
 		height: 190px;
 		background: linear-gradient(
-			1.01deg,
+			0deg,
 			#241e15 43.87%,
 			rgba(36, 30, 21, 0.53) 61.79%,
 			rgba(36, 30, 21, 0) 92.01%
