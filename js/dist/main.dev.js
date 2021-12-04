@@ -120,3 +120,24 @@ function darkmodeFunction() {
 // 	document.querySelector(".mobile-overlay").classList.toggle("active");
 // 	document.querySelector("header").classList.toggle("active");
 // });
+
+
+function spanhideFunction() {
+  var x = document.getElementById("name-tag-id");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function spanhide2Function() {
+  var x = document.getElementById("name-tag-id-2");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
