@@ -123,21 +123,21 @@ function darkmodeFunction() {
 
 
 function spanhideFunction() {
-  var x = document.getElementById("name-tag-id");
+  var spanhide = document.getElementById("name-tag-id");
 
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  if (spanhide.style.display === "none") {
+    spanhide.style.display = "block";
   } else {
-    x.style.display = "none";
+    spanhide.style.display = "none";
   }
 }
 
 function spanhide2Function() {
-  var x = document.getElementById("name-tag-id-2");
+  var spanhide = document.getElementById("name-tag-id-2");
 
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  if (spanhide.style.display === "none") {
+    spanhide.style.display = "block";
   } else {
-    x.style.display = "none";
+    spanhide.style.display = "none";
   }
 }
