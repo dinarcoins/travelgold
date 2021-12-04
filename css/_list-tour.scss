@@ -150,4 +150,29 @@ main {
 		line-height: 1.875rem;
 		color: #ffdc73;
 	}
+	.navigation {
+		.navigation-tag {
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: transparent;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 1rem;
+			font-weight: 400;
+			font-size: 1rem;
+			line-height: 1.375;
+			color: #ffdc73;
+			&:hover {
+				border: 1px solid #f2cd72;
+			}
+			a {
+				color: #ffdc73;
+			}
+		}
+		li.navigation-tag.active {
+			border: 1px solid #f2cd72;
+		}
+	}
 }

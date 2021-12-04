@@ -2104,3 +2104,36 @@ main .price {
   line-height: 1.875rem;
   color: #ffdc73;
 }
+
+main .navigation .navigation-tag {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375;
+  color: #ffdc73;
+}
+
+main .navigation .navigation-tag:hover {
+  border: 1px solid #f2cd72;
+}
+
+main .navigation .navigation-tag a {
+  color: #ffdc73;
+}
+
+main .navigation li.navigation-tag.active {
+  border: 1px solid #f2cd72;
+}
