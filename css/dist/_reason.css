@@ -18,8 +18,10 @@
   border-radius: 5px;
   padding: 3.813rem 0 3.5rem 0;
   background-color: transparent;
+  transition: 0.3s all;
 }
 .reason .reason_content .reason_content-items .reason-items:hover {
+  transition: 0.3s all;
   background-color: #18140e;
 }
 .reason .reason_content .reason_content-items .reason-items-title {

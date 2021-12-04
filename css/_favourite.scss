@@ -1,7 +1,7 @@
 .favourite {
 	padding-bottom: 100px;
 	.favourite_content {
-		a {
+		.favourite-tab {
 			color: #ffdc73;
 			font-family: "Lora", serif;
 			font-size: 1.5rem;
@@ -23,12 +23,25 @@
 				border-radius: 5px;
 				color: #17130d;
 			}
+			&:hover {
+				color: #17130d;
+				background: linear-gradient(
+					90.92deg,
+					#f7c631 9.43%,
+					#fff9ab 51.41%,
+					#f7ca3a 100%
+				);
+				transition: all 0.3s ease-in-out;
+			}
 		}
 		.nav-pills .nav-link.active,
 		.nav-pills .show > .nav-link {
 			background-color: transparent;
 			color: #ffdc73;
 			&:focus {
+				color: #17130d;
+			}
+			&:hover {
 				color: #17130d;
 			}
 		}

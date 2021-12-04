@@ -1,7 +1,7 @@
 .favourite {
   padding-bottom: 100px;
 }
-.favourite .favourite_content a {
+.favourite .favourite_content .favourite-tab {
   color: #ffdc73;
   font-family: "Lora", serif;
   font-size: 1.5rem;
@@ -14,10 +14,15 @@
   margin: 0 10px;
   font-weight: 600;
 }
-.favourite .favourite_content a:focus {
+.favourite .favourite_content .favourite-tab:focus {
   background: linear-gradient(90.92deg, #f7c631 9.43%, #fff9ab 51.41%, #f7ca3a 100%);
   border-radius: 5px;
   color: #17130d;
+}
+.favourite .favourite_content .favourite-tab:hover {
+  color: #17130d;
+  background: linear-gradient(90.92deg, #f7c631 9.43%, #fff9ab 51.41%, #f7ca3a 100%);
+  transition: all 0.3s ease-in-out;
 }
 .favourite .favourite_content .nav-pills .nav-link.active,
 .favourite .favourite_content .nav-pills .show > .nav-link {
@@ -26,6 +31,10 @@
 }
 .favourite .favourite_content .nav-pills .nav-link.active:focus,
 .favourite .favourite_content .nav-pills .show > .nav-link:focus {
+  color: #17130d;
+}
+.favourite .favourite_content .nav-pills .nav-link.active:hover,
+.favourite .favourite_content .nav-pills .show > .nav-link:hover {
   color: #17130d;
 }
 .favourite .favourite_items {

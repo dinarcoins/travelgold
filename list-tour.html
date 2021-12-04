@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>List tour</title>
+	<!-- link css -->
+	<link rel="stylesheet" href="./assets/css/index.css">
+	<!-- link bst 5 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- import fonts family -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
+	<!-- link css swiper -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<!-- link favicon -->
+	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+	<main>
+		<div class="container">
+			<nav class="list-tour-menu text-center d-flex justify-content-center align-items-center">
+				<ul class="d-flex p-0">
+					<li class=" me-lg-5 me-2">Trang chủ</li>
+					<li class="list-tour-arrow me-lg-5 me-2">Tour</li>
+					<li class="list-tour-arrow active">Tour trong nước</li>
+				</ul>
+			</nav>
+			<h1
+				class="title_main text-uppercase align-items-center text-center d-flex flex-column justify-content-center align-items-center">
+				<img class="mb-3" src="./assets/image-list-tour/title-border-top.png" alt="title-border-top">
+				Tour trong nước
+				<img class="mt-3" src="./assets/image-list-tour/title-border-bottom.png" alt="title-border-bottom">
+			</h1>
+			<section class="list_tour text-center">
+				<div class="ratting">
+					<div class="row">
+						<div class="col-lg-6 col-12 d-flex">
+							<img class="me-2" src="./assets/image-list-tour/star.png" alt="">
+							<img class="me-2" src="./assets/image-list-tour/star.png" alt="">
+							<img class="me-2" src="./assets/image-list-tour/star.png" alt="">
+							<img class="me-2" src="./assets/image-list-tour/star.png" alt="">
+							<img src="./assets/image-list-tour/star(gray).png" alt="">
+
+							<div class="d-flex ms-4 align-items-center ratting_text">
+								<span class="ratting_number">4.11/5</span>
+								trong
+								<span class="ratting_number">1290</span>
+								Đánh giá
+							</div>
+
+						</div>
+						<div class="col-lg-6 col-12">
+							<div class="ratting-social">
+
+							</div>
+						</div>
+					</div>
+					<p class="ratting_comment text-start text-justify">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget adipiscing volutpat erat elit sit. Neque, nisl
+						egestas diam aenean phasellus. Quisque pharetra, ornare nullam libero integer. Scelerisque id eros,
+						tincidunt non. Egestas faucibus cras risus, pulvinar sollicitudin placerat nibh. Tortor sed nibh morbi
+						sapien tristique turpis elit tristique accumsan. Sed nec ut vulputate sed justo massa blandit porta. Et arcu
+						neque neque malesuada dolor integer. Et vitae nibh non sit pellentesque. At vulputate vitae risus, sed
+						etiam. Ut posuere lacinia metus, a, sit. Dignissim dolor, amet purus duis eu donec fringilla blandit
+						elementum. Pellentesque aliquet tristique tellus morbi sed faucibus morbi erat. Tristique varius nunc
+						faucibus sit dui egestas. Pellentesque nisl, augue eget morbi.
+					</p>
+				</div>
+				<form action="">
+					<div class="filter">
+						<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-4 gy-4 gx-lg-5 gx-0 filter_box">
+							<div class="col d-flex justify-content-between align-items-center p-0 pe-xl-5 pe-md-3">
+								<label class="filter_name text-capitaliz" for="tour">Loại Tour</label>
+								<select class="form_select shadow-none w-50 bg-transparent" aria-label="Default select example">
+									<option value="domestic" selected>Trong Nước</option>
+									<option value="foreign">ngoài nước</option>
+								</select>
+							</div>
+							<div class="col d-flex justify-content-between align-items-center p-0 pe-xl-5 pe-md-3">
+								<label class="filter_name text-capitaliz" for="tour">Nơi khởi hành</label>
+								<select class="form_select shadow-none w-50 bg-transparent" aria-label="Default select example">
+									<option value="domestic" selected>Trong Nước</option>
+									<option value="foreign">ngoài nước</option>
+								</select>
+							</div>
+							<div class="col d-flex justify-content-between align-items-center p-0 pe-md-3">
+								<label class="filter_name text-capitaliz" for="tour">Điểm đến</label>
+								<select class="form_select shadow-none w-50 bg-transparent" aria-label="Default select example">
+									<option value="domestic" selected>Trong Nước</option>
+									<option value="foreign">ngoài nước</option>
+								</select>
+							</div>
+							<div class="col d-flex justify-content-between align-items-center p-0 ps-xl-5 pe-md-3">
+								<label class="filter_name text-capitaliz" for="tour">Giá</label>
+								<select class="form_select shadow-none w-50 bg-transparent" aria-label="Default select example">
+									<option value="domestic" selected>Trong Nước</option>
+									<option value="foreign">ngoài nước</option>
+								</select>
+							</div>
+							<div class="col d-flex justify-content-between align-items-center p-0 pe-xl-5 pe-md-3">
+								<label class="filter_name text-capitaliz" for="tour">Từ ngày</label>
+								<select class="form_select shadow-none w-50 bg-transparent" aria-label="Default select example">
+									<option value="domestic" selected>Trong Nước</option>
+									<option value="foreign">ngoài nước</option>
+								</select>
+							</div>
+							<div class="col d-flex justify-content-between align-items-center p-0 pe-xl-5 pe-md-3">
+								<label class="filter_name text-capitaliz" for="tour">Loại Tour</label>
+								<select class="form_select shadow-none w-50 bg-transparent" aria-label="Default select example">
+									<option value="domestic" selected>Trong Nước</option>
+									<option value="foreign">ngoài nước</option>
+								</select>
+							</div>
+							<div class="col d-flex justify-content-between align-items-center p-0 pe-md-3">
+								<label class="filter_name text-capitaliz" for="tour">Giá</label>
+								<select class="form_select shadow-none w-50 bg-transparent" aria-label="Default select example">
+									<option value="domestic" selected>Tất cả</option>
+									<option value="foreign">Dưới 1 triệu</option>
+									<option value="foreign">1 - 2 Triệu</option>
+									<option value="foreign">1 - 2 Triệu</option>
+									<option value="foreign">1 - 2 Triệu</option>
+									<option value="foreign">1 - 2 Triệu</option>
+									<option value="foreign">1 - 2 Triệu</option>
+								</select>
+							</div>
+							<div class="col d-flex justify-content-between align-items-center p-0  ps-xl-5">
+								<button class="filter_btn text-uppercase text-center w-100" type="submit">Lọc nhanh</button>
+							</div>
+						</div>
+						<div class="row filter_tag">
+							<div class="col-xl-6 col-12 text-start d-flex justify-content-start">
+								<div class="filter_tag-items position-relative me-3">
+									Hà Nội
+									<span class="position-absolute">x</span>
+								</div>
+								<div class="filter_tag-items position-relative me-3">
+									Hà Nội
+									<span class="position-absolute">x</span>
+								</div>
+								<div class="filter_tag-items position-relative me-3">
+									Hà Nội
+									<span class="position-absolute">x</span>
+								</div>
+								<div class="filter_tag-items position-relative me-3">
+									Hà Nội
+									<span class="position-absolute">x</span>
+								</div>
+							</div>
+							<div
+								class="col-xl-6 col-12 d-flex justify-content-xl-end justify-content-start align-items-center mt-xl-0 mt-3">
+								<label class="filter_name text-capitaliz me-3" for="tour">sắp xếp theo</label>
+								<select class="form_select shadow-none w-25 bg-transparent" aria-label="Default select example">
+									<option value="domestic" selected>Trong Nước</option>
+									<option value="foreign">ngoài nước</option>
+								</select>
+							</div>
+						</div>
+						<div class="row gy-lg-4 gy-2 gx-2 gx-lg-4 filter_content">
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+							<div class="col-xl-3 col-md-6 col-12 text-start">
+								<a class="mb-4 d-block" href="#">
+									<img class="items-img w-100" src="./assets/image-list-tour/items.png" alt="items">
+								</a>
+								<a class="mb-3" href="#">
+									<h4 class="items_title text-uppercase w-100">
+										hÀ NỘI - flc SẦM SƠN - HÀ NỘI (2 NGÀY 1 ĐÊM)
+									</h4>
+								</a>
+								<div class="time-begin style_time">
+									<img src="./assets/image-list-tour/plane-icon.png" alt="plane-icon">
+									Khởi hành: 09/03 - 31/03/2021
+								</div>
+								<div class="time-date style_time">
+									<img src="./assets/image-list-tour/calendar-icon.png" alt="calendar-icon">
+									3 Ngày 2 Đêm
+								</div>
+								<div class="price text-uppercase">
+									<img src="./assets/image-list-tour/dollar-icon.png" alt="dollar-icon">
+									2.000.000đ
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</section>
+		</div>
+	</main>
+	<!-- script bst 5 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
