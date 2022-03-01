@@ -2,1919 +2,1802 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Travel Golden</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- link css style -->
-	<link rel="stylesheet" href="./assets/css/index.css">
-	<link rel="stylesheet" href="./css/style.css">
-	<!-- link bootstrap -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-		integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-	<!-- import fonts family -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
-	<!-- link css swiper -->
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-	<!-- link favicon -->
-	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Travel Golden</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link css style -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- import fonts family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
+    <!-- link css swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
 
 
 <body>
-	<!-- button light mode and button back to top -->
-	<a id="button-backtotop">
-		<img src="./img/backtotop.png" alt="backtotop">
-	</a>
-	<button class="button-night-mode" onclick="darkmodeFunction()"><img src="./img/sun.png" alt="sun"></button>
-	<!-- end button light mode and button back to top -->
-	<header>
-		<div class="header_main position-fixed w-100">
-			<div class="header_top " id="header-top">
-				<div class="container">
-					<div class="row">
-						<div class="col-6">
-							<div class="dropdown">
-								<button class="btn header_btn shadow-none flex align-items-center" type="button" data-toggle="dropdown"
-									aria-expanded="false">
+    <!-- button light mode and button back to top -->
+    <a id="button-backtotop">
+        <img src="./img/backtotop.png" alt="backtotop">
+    </a>
+    <button>check out git </button>
+    <button class="button-night-mode" onclick="darkmodeFunction()"><img src="./img/sun.png" alt="sun"></button>
+    <!-- end button light mode and button back to top -->
+    <header>
+        <div class="header_main position-fixed w-100">
+            <div class="header_top " id="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="dropdown">
+                                <button class="btn header_btn shadow-none flex align-items-center" type="button" data-toggle="dropdown" aria-expanded="false">
 									Tiếng Việt
 									<img class="m-1" src="./img/flag-vietnamses.png" alt="flag-vietnamses">
 									<img src="./img/header_icon-vector.png" alt="header_icon-vector">
 								</button>
-								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-									<a class="dropdown-item" href="#">EngLish</a>
-									<a class="dropdown-item" href="#">France</a>
-									<a class="dropdown-item" href="#">Turkey</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-6">
-							<div class="register-login float-right">
-								<img src="./img/header_icon-man.png" class="mr-1" alt="header_icon-man">
-								<a class="header_btn" href="#">Đăng Nhập</a>
-								<span class="header_btn">/</span>
-								<a class="header_btn" href="#">Đăng Ký</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="header_mid pt-4 position-relative" id="header-mid">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-6 ">
-							<div class="phone">
-								<img src="./img/header_icon-phone.png" alt="header_icon-phone">
-								<a class="ml-3" href="tel:0911115825">0911.11.58.25</a>
-							</div>
-						</div>
-						<div class="col-xl-6  d-flex justify-content-end">
-							<div class="header_input pb-1">
-								<input class="border-0 shadow-none text-light bg-transparent" type="text "
-									placeholder="Tour du lịch, điểm đến...">
-								<button class="bg-transparent shadow-none border-0 float-right">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">EngLish</a>
+                                    <a class="dropdown-item" href="#">France</a>
+                                    <a class="dropdown-item" href="#">Turkey</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="register-login float-right">
+                                <img src="./img/header_icon-man.png" class="mr-1" alt="header_icon-man">
+                                <a class="header_btn" href="#">Đăng Nhập</a>
+                                <span class="header_btn">/</span>
+                                <a class="header_btn" href="#">Đăng Ký</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_mid pt-4 position-relative" id="header-mid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 ">
+                            <div class="phone">
+                                <img src="./img/header_icon-phone.png" alt="header_icon-phone">
+                                <a class="ml-3" href="tel:0911115825">0911.11.58.25</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6  d-flex justify-content-end">
+                            <div class="header_input pb-1">
+                                <input class="border-0 shadow-none text-light bg-transparent" type="text " placeholder="Tour du lịch, điểm đến...">
+                                <button class="bg-transparent shadow-none border-0 float-right">
 									<img src="./img/header_icon-search.png" alt="header_icon-search">
 								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="header_bottom w-100 text-center">
-				<div class="container">
-					<div class="row menu ">
-						<div class="coi-5 ">
-							<ul class="list_menu">
-								<li class="ml-0"><a href="#">Tour</a></li>
-								<li><a href="#">khách sạn</a></li>
-								<li><a href="#">vé máy bay</a></li>
-							</ul>
-						</div>
-						<div class="coi-2 logo-bg">
-							<a href="#">
-								<img class="logo" id="header-logo" src="./img/logotravelgold.png" alt="logotravelgold">
-							</a>
-						</div>
-						<div class="coi-5">
-							<ul class="list_menu">
-								<li><a href="#">tin tức</a></li>
-								<li><a href="#"> khuyến mãi</a></li>
-								<li class="mr-0"><a href="#">liên hệ</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="bg_header-top position-absolute" id="bg-header-top"></div>
-		</div>
-		<div class="banner">
-			<img src="./img/header_banner.png" alt="header_banner">
-		</div>
-	</header>
-	<!-- end header -->
-	<main class="wrapper">
-		<div class="text-center">
-			<div class="content_main">
-				<!-- service -->
-				<section class="service">
-					<div class="container">
-						<div class="service_content">
-							<img class="service_border-left" src="./img/service_border-left.png" alt="service_border-left">
-							<img class="service_border-right" src="./img/service_border-right.png" alt="service_border-right">
-							<nav class="text-center">
-								<div class="nav d-flex justify-content-center" role="tablist">
-									<a class="nav-link ml-3 mr-3 text-uppercase" data-toggle="tab" href="#ticket" role="tab"
-										aria-selected="true"><img src="./img/service_icon-nametag.png"> Săn
-										giá vé</a>
-									<a class="nav-link ml-3 mr-3 text-uppercase" data-toggle="tab" href="#hotel" role="tab"
-										aria-selected="false"><img src="./img/service_icon-hotel.png"> khách sạn</a>
-									<a class="nav-link ml-3 mr-3 text-uppercase " data-toggle="tab" href="#ticket-plane" role="tab"
-										aria-selected="false"><img src="./img/service_icon-plane.png"> vé máy bay</a>
-								</div>
-							</nav>
-							<div class="tab-content text-light" id="nav-tabContent">
-								<div class="tab-pane fade show active" id="ticket" role="tabpanel">
-									<div class="service_items text-left">
-										<p class="service_title">Bạn muốn trải nghiệm combo nào?</p>
-										<div class="row mb-3">
-											<div class="col-xl-4  d-flex flex-column pr-xl-0">
-												<div class="d-flex align-items-center service_items-content ">
-													<div class="service_items-img">
-														<img src="./img/combo-1999k.svg" alt="combo-1999k">
-													</div>
-													<div class="ml-3">
-														<p class="service_items-title">
-															Combo đồng giá 1.999k
-														</p>
-														<p class="service_items-text">
-															Vé máy bay khứ hồi + Khách sạn + Đi
-															tất cả địa điểm chỉ với 1 giá duy nhất
-														</p>
-													</div>
-												</div>
-											</div>
-											<div class="col-xl-4  d-flex flex-column mt-2 mt-xl-0">
-												<div class="d-flex align-items-center service_items-content ">
-													<div class="service_items-img">
-														<img src="./img/combo_vinpearl-2699k.svg" alt="combo_vinpearl-2699k">
-													</div>
-													<div class="ml-3">
-														<p class="service_items-title">
-															Combo Vinpearl từ 2.699k
-														</p>
-														<p class="service_items-text">
-															Vé máy bay khứ hồi + Khách sạn + Đi
-															tất cả địa điểm chỉ với 1 giá duy nhất
-														</p>
-													</div>
-												</div>
-											</div>
-											<div class="col-xl-4  d-flex flex-column pl-xl-0 mt-2 mt-xl-0">
-												<div class="d-flex align-items-center service_items-content ">
-													<div class="service_items-img">
-														<img src="./img/combo-plane.svg" alt="combo-plane">
-													</div>
-													<div class="ml-3">
-														<p class="service_items-title">
-															Săn vé máy bay 1.700k
-														</p>
-														<p class="service_items-text">
-															Vé máy bay khứ hồi + Khách sạn + Đi
-															tất cả địa điểm chỉ với 1 giá duy nhất
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="service_items text-left mb-3">
-										<div class="row">
-											<div class="col-xl-4  pr-xl-0 d-flex flex-column">
-												<p class="service_title">Điểm khởi hành</p>
-												<div class="service-input-datalist">
-													<input autocomplete="off" id="departure" type="text" list="departure-place"
-														placeholder="Ha Noi" />
-													<datalist id="departure-place">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom w-100 text-center">
+                <div class="container">
+                    <div class="row menu ">
+                        <div class="coi-5 ">
+                            <ul class="list_menu">
+                                <li class="ml-0"><a href="#">Tour</a></li>
+                                <li><a href="#">khách sạn</a></li>
+                                <li><a href="#">vé máy bay</a></li>
+                            </ul>
+                        </div>
+                        <div class="coi-2 logo-bg">
+                            <a href="#">
+                                <img class="logo" id="header-logo" src="./img/logotravelgold.png" alt="logotravelgold">
+                            </a>
+                        </div>
+                        <div class="coi-5">
+                            <ul class="list_menu">
+                                <li><a href="#">tin tức</a></li>
+                                <li><a href="#"> khuyến mãi</a></li>
+                                <li class="mr-0"><a href="#">liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_header-top position-absolute" id="bg-header-top"></div>
+        </div>
+        <div class="banner">
+            <img src="./img/header_banner.png" alt="header_banner">
+        </div>
+    </header>
+    <!-- end header -->
+    <main class="wrapper">
+        <div class="text-center">
+            <div class="content_main">
+                <!-- service -->
+                <section class="service">
+                    <div class="container">
+                        <div class="service_content">
+                            <img class="service_border-left" src="./img/service_border-left.png" alt="service_border-left">
+                            <img class="service_border-right" src="./img/service_border-right.png" alt="service_border-right">
+                            <nav class="text-center">
+                                <div class="nav d-flex justify-content-center" role="tablist">
+                                    <a class="nav-link ml-3 mr-3 text-uppercase" data-toggle="tab" href="#ticket" role="tab" aria-selected="true"><img src="./img/service_icon-nametag.png"> Săn giá vé</a>
+                                    <a class="nav-link ml-3 mr-3 text-uppercase" data-toggle="tab" href="#hotel" role="tab" aria-selected="false"><img src="./img/service_icon-hotel.png"> khách sạn</a>
+                                    <a class="nav-link ml-3 mr-3 text-uppercase " data-toggle="tab" href="#ticket-plane" role="tab" aria-selected="false"><img src="./img/service_icon-plane.png"> vé máy bay</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content text-light" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="ticket" role="tabpanel">
+                                    <div class="service_items text-left">
+                                        <p class="service_title">Bạn muốn trải nghiệm combo nào?</p>
+                                        <div class="row mb-3">
+                                            <div class="col-xl-4  d-flex flex-column pr-xl-0">
+                                                <div class="d-flex align-items-center service_items-content ">
+                                                    <div class="service_items-img">
+                                                        <img src="./img/combo-1999k.svg" alt="combo-1999k">
+                                                    </div>
+                                                    <div class="ml-3">
+                                                        <p class="service_items-title">
+                                                            Combo đồng giá 1.999k
+                                                        </p>
+                                                        <p class="service_items-text">
+                                                            Vé máy bay khứ hồi + Khách sạn + Đi tất cả địa điểm chỉ với 1 giá duy nhất
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4  d-flex flex-column mt-2 mt-xl-0">
+                                                <div class="d-flex align-items-center service_items-content ">
+                                                    <div class="service_items-img">
+                                                        <img src="./img/combo_vinpearl-2699k.svg" alt="combo_vinpearl-2699k">
+                                                    </div>
+                                                    <div class="ml-3">
+                                                        <p class="service_items-title">
+                                                            Combo Vinpearl từ 2.699k
+                                                        </p>
+                                                        <p class="service_items-text">
+                                                            Vé máy bay khứ hồi + Khách sạn + Đi tất cả địa điểm chỉ với 1 giá duy nhất
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4  d-flex flex-column pl-xl-0 mt-2 mt-xl-0">
+                                                <div class="d-flex align-items-center service_items-content ">
+                                                    <div class="service_items-img">
+                                                        <img src="./img/combo-plane.svg" alt="combo-plane">
+                                                    </div>
+                                                    <div class="ml-3">
+                                                        <p class="service_items-title">
+                                                            Săn vé máy bay 1.700k
+                                                        </p>
+                                                        <p class="service_items-text">
+                                                            Vé máy bay khứ hồi + Khách sạn + Đi tất cả địa điểm chỉ với 1 giá duy nhất
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service_items text-left mb-3">
+                                        <div class="row">
+                                            <div class="col-xl-4  pr-xl-0 d-flex flex-column">
+                                                <p class="service_title">Điểm khởi hành</p>
+                                                <div class="service-input-datalist">
+                                                    <input autocomplete="off" id="departure" type="text" list="departure-place" placeholder="Ha Noi" />
+                                                    <datalist id="departure-place">
 														<option value="Ha Noi">
 														<option value="Da Nang">
 														<option value="Ho Chi Minh City">
 													</datalist>
-												</div>
-											</div>
-											<div class="col-xl-4 ">
-												<p class="service_title">Điểm đến</p>
-												<div class="service-input-datalist">
-													<input autocomplete="off" id="destination" type="text" list="destination-place"
-														placeholder="Ha Noi" />
-													<datalist id="destination-place">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 ">
+                                                <p class="service_title">Điểm đến</p>
+                                                <div class="service-input-datalist">
+                                                    <input autocomplete="off" id="destination" type="text" list="destination-place" placeholder="Ha Noi" />
+                                                    <datalist id="destination-place">
 														<option value="Ha Noi">
 														<option value="Da Nang">
 														<option value="Ho Chi Minh City">
 													</datalist>
-												</div>
-											</div>
-											<div class="col-xl-4  pl-xl-0">
-												<p class="service_title">Số người</p>
-												<div class="service_items-content d-flex justify-content-between align-items-center pt-2 pb-2">
-													<input type="text">
-													<img src="./img/service_icon-user.svg" alt="service_icon-user">
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="service_items text-left">
-										<div class="row">
-											<div class="col-xl-4  pr-xl-0">
-												<p class="service_title">Chọn thời gian bạn muốn đi</p>
-												<div class="service-input-datalist">
-													<input autocomplete="off" id="timetravel" type="text" list="timetravel"
-														placeholder="3 ngày 2 đêm - 1.999.000đ/người" />
-													<datalist id="timetravel">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4  pl-xl-0">
+                                                <p class="service_title">Số người</p>
+                                                <div class="service_items-content d-flex justify-content-between align-items-center pt-2 pb-2">
+                                                    <input type="text">
+                                                    <img src="./img/service_icon-user.svg" alt="service_icon-user">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service_items text-left">
+                                        <div class="row">
+                                            <div class="col-xl-4  pr-xl-0">
+                                                <p class="service_title">Chọn thời gian bạn muốn đi</p>
+                                                <div class="service-input-datalist">
+                                                    <input autocomplete="off" id="timetravel" type="text" list="timetravel" placeholder="3 ngày 2 đêm - 1.999.000đ/người" />
+                                                    <datalist id="timetravel">
 														<option value="3 ngày 2 đêm - 1.999.000đ/người">
 														<option value="4 ngày 3 đêm - 4.999.000đ/người">
 													</datalist>
-												</div>
-											</div>
-											<div class="col-xl-4  d-flex align-items-end justify-content-end mt-2 mt-xl-0">
-												<p class="service_items-1">4 ngày 3 đêm - 2.499.000đ/người</p>
-											</div>
-											<div class="col-xl-4  pl-xl-0 d-flex align-items-end mt-2 mt-xl-0">
-												<button class="service_items-button">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4  d-flex align-items-end justify-content-end mt-2 mt-xl-0">
+                                                <p class="service_items-1">4 ngày 3 đêm - 2.499.000đ/người</p>
+                                            </div>
+                                            <div class="col-xl-4  pl-xl-0 d-flex align-items-end mt-2 mt-xl-0">
+                                                <button class="service_items-button">
 													SĂN NGAY
 												</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="tab-pane fade" id="hotel" role="tabpanel">Lorem ipsum
-									dolor, sit amet consectetur adipisicing elit. Aspernatur veniam, quibusdam ab recusandae quos enim
-									laudantium dolore maiores modi voluptatibus magnam consectetur assumenda eligendi quidem ipsam. At
-									quibusdam doloremque reprehenderit?</div>
-								<div class="tab-pane fade" id="ticket-plane" role="tabpanel">Lorem ipsum
-									dolor, sit amet consectetur adipisicing elit. Aspernatur veniam, quibusdam ab recusandae quos enim
-									laudantium dolore maiores modi voluptatibus magnam consectetur assumenda eligendi quidem ipsam. At
-									quibusdam doloremque reprehenderit?</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end services -->
-				<!-- tourhot-1 -->
-				<section class="tourhot pt-5 the-best-tourhot-of-month">
-					<div class="title-main">
-						<img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
-						<h1 class="title">
-							tour HOT TRONG THÁNG
-						</h1>
-					</div>
-					<div class="container">
-						<div class="tourhot_content">
-							<div class="row g-2">
-								<div class=" col-md-6 col-xl-4 col-12">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-												<span class="old-price">2.900.000đ</span>
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-star.png" alt="icon-star">
-												Đánh giá: 9.6 Rất tốt
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class=" col-md-6 col-xl-4 col-12">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-												<span class="old-price">2.900.000đ</span>
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-star.png" alt="icon-star">
-												Đánh giá: 9.6 Rất tốt
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class=" col-md-6 col-xl-4 col-12">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-												<span class="old-price">2.900.000đ</span>
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-star.png" alt="icon-star">
-												Đánh giá: 9.6 Rất tốt
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class=" col-md-6 col-xl-4 col-12">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-												<span class="old-price">2.900.000đ</span>
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-star.png" alt="icon-star">
-												Đánh giá: 9.6 Rất tốt
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class=" col-md-6 col-xl-4 col-12">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-												<span class="old-price">2.900.000đ</span>
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-star.png" alt="icon-star">
-												Đánh giá: 9.6 Rất tốt
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class=" col-md-6 col-xl-4 col-12">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-												<span class="old-price">2.900.000đ</span>
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-star.png" alt="icon-star">
-												Đánh giá: 9.6 Rất tốt
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-										</div>
-									</a>
-								</div>
-							</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="hotel" role="tabpanel">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur veniam, quibusdam ab recusandae quos enim laudantium dolore maiores modi voluptatibus magnam consectetur assumenda eligendi quidem ipsam. At quibusdam
+                                    doloremque reprehenderit?</div>
+                                <div class="tab-pane fade" id="ticket-plane" role="tabpanel">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur veniam, quibusdam ab recusandae quos enim laudantium dolore maiores modi voluptatibus magnam consectetur assumenda eligendi quidem ipsam. At quibusdam
+                                    doloremque reprehenderit?</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end services -->
+                <!-- tourhot-1 -->
+                <section class="tourhot pt-5 the-best-tourhot-of-month">
+                    <div class="title-main">
+                        <img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
+                        <h1 class="title">
+                            tour HOT TRONG THÁNG
+                        </h1>
+                    </div>
+                    <div class="container">
+                        <div class="tourhot_content">
+                            <div class="row g-2">
+                                <div class=" col-md-6 col-xl-4 col-12">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                                <span class="old-price">2.900.000đ</span>
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-star.png" alt="icon-star"> Đánh giá: 9.6 Rất tốt
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class=" col-md-6 col-xl-4 col-12">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                                <span class="old-price">2.900.000đ</span>
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-star.png" alt="icon-star"> Đánh giá: 9.6 Rất tốt
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class=" col-md-6 col-xl-4 col-12">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                                <span class="old-price">2.900.000đ</span>
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-star.png" alt="icon-star"> Đánh giá: 9.6 Rất tốt
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class=" col-md-6 col-xl-4 col-12">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                                <span class="old-price">2.900.000đ</span>
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-star.png" alt="icon-star"> Đánh giá: 9.6 Rất tốt
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class=" col-md-6 col-xl-4 col-12">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                                <span class="old-price">2.900.000đ</span>
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-star.png" alt="icon-star"> Đánh giá: 9.6 Rất tốt
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class=" col-md-6 col-xl-4 col-12">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                                <span class="old-price">2.900.000đ</span>
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-star.png" alt="icon-star"> Đánh giá: 9.6 Rất tốt
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
 
-							<div class="readmore-btn">
-								<a href="#">Xem thêm <img src="./img/chevrons-right.png" alt="chevrons-right"></a>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- tourhot-2 -->
-				<section class="tourhot pt-5 combotravel">
-					<div class="title-main">
-						<img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
-						<h1 class="title">
-							Combo du lich
-						</h1>
-					</div>
-					<div class="container">
-						<div class="tourhot_content">
-							<div class="row gx-2 gy-2 gx-lg-3 gy-lg-3">
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												Combo du lịch nha trang 4n3đ khách sạn...
-											</h4>
+                            <div class="readmore-btn">
+                                <a href="#">Xem thêm <img src="./img/chevrons-right.png" alt="chevrons-right"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- tourhot-2 -->
+                <section class="tourhot pt-5 combotravel">
+                    <div class="title-main">
+                        <img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
+                        <h1 class="title">
+                            Combo du lich
+                        </h1>
+                    </div>
+                    <div class="container">
+                        <div class="tourhot_content">
+                            <div class="row gx-2 gy-2 gx-lg-3 gy-lg-3">
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                Combo du lịch nha trang 4n3đ khách sạn...
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												Combo du lịch nha trang 4n3đ khách sạn...
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                Combo du lịch nha trang 4n3đ khách sạn...
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												Combo du lịch nha trang 4n3đ khách sạn...
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                Combo du lịch nha trang 4n3đ khách sạn...
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												Combo du lịch nha trang 4n3đ khách sạn...
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                Combo du lịch nha trang 4n3đ khách sạn...
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												Combo du lịch nha trang 4n3đ khách sạn...
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                Combo du lịch nha trang 4n3đ khách sạn...
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												Combo du lịch nha trang 4n3đ khách sạn...
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                Combo du lịch nha trang 4n3đ khách sạn...
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												Combo du lịch nha trang 4n3đ khách sạn...
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                Combo du lịch nha trang 4n3đ khách sạn...
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-1.png" alt="tourhot-1">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												Combo du lịch nha trang 4n3đ khách sạn...
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-1.png" alt="tourhot-1">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                Combo du lịch nha trang 4n3đ khách sạn...
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-							</div>
-							<div class="readmore-btn">
-								<a href="#">Xem thêm <img src="./img/chevrons-right.png" alt="chevrons-right"></a>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end tourhot -->
-				<!-- ad -->
-				<section class="ad mt-5">
-					<div class="container">
-						<div class="row">
-							<div class="col-6">
-								<a href="#">
-									<img src="./img/Group6823.svg" alt="ad-1">
-								</a>
-							</div>
-							<div class="col-6">
-								<a href="#">
-									<img src="./img/Group6830.svg" alt="ad-2">
-								</a>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end ad -->
-				<!-- the reasons -->
-				<section class="reason text-center mt-5">
-					<div class="title-main">
-						<img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
-						<h1 class="title">
-							tại sao bạn chọn travel gold
-						</h1>
-					</div>
-					<div class="container">
-						<div class="reason_content mt-5 ">
-							<div class="reason_content-text">
-								<p class="reason-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim at duis
-									est id
-									sapien. Et in euismod eget diam neque. Libero aliquet netus mollis magna amet nisl et. Turpis pharetra
-									eget dui, pulvinar amet duis quis et. Est nunc mi et sodales. Dolor quam urna curabitur nec semper.
-									Eget
-									enim mattis lorem purus viverra tellus malesuada. At congue ultrices nulla in sapien.
-								</p>
-								<p class="reason-text">
-									Amet tempor nunc in lectus vitae commodo integer lorem. Congue id augue eget urna, enim sed viverra
-									tellus. Volutpat sollicitudin sagittis pretium dignissim ligula. Risus feugiat dictumst dapibus proin
-									aliquam feugiat maecenas. Sit odio mi fusce nec. Venenatis, pharetra at lacus maecenas egestas sed
-									tincidunt.
-								</p>
-							</div>
-							<div class="reason_content-items mt-4">
-								<div class="row">
-									<div class="col-xl-4 ">
-										<div class="reason-items">
-											<img src="./img/reason-items-1.png" alt="reason-items-1">
-											<h4 class="reason-items-title mb-3 mt-4">CÔNG NGHỆ HIỆN ĐẠI</h4>
-											<p class="reason-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-												Lacinia,morbi platea id congue mi</p>
-										</div>
-									</div>
-									<div class="col-xl-4 ">
-										<div class="reason-items">
-											<img src="./img/reason-items-2.png" alt="reason-items-2">
-											<h4 class="reason-items-title mb-3 mt-4">RẺ NHẤT THỊ TRƯỜNG</h4>
-											<p class="reason-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-												Lacinia,morbi platea id congue mi</p>
-										</div>
-									</div>
-									<div class="col-xl-4 ">
-										<div class="reason-items">
-											<img src="./img/reason-items-3.png" alt="reason-items-3">
-											<h4 class="reason-items-title mb-3 mt-4">TIẾT KIỆM THỜI GIAN</h4>
-											<p class="reason-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-												Lacinia,morbi platea id congue mi</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="img-bg">
-						<img src="./img/flower-left-dark.png" alt="flower-left1" class="flower-left-dark">
-						<img src="./img/flower-right-dark.png" alt="flower-right1" class="flower-right-dark">
-						<img src="./img/flower-left-light.png" alt="flower-left-light" class="flower-left-light">
-						<img src="./img/flower-right-light.png" alt="flower-right-light" class="flower-right-light">
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="readmore-btn">
+                                <a href="#">Xem thêm <img src="./img/chevrons-right.png" alt="chevrons-right"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end tourhot -->
+                <!-- ad -->
+                <section class="ad mt-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="#">
+                                    <img src="./img/Group6823.svg" alt="ad-1">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#">
+                                    <img src="./img/Group6830.svg" alt="ad-2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end ad -->
+                <!-- the reasons -->
+                <section class="reason text-center mt-5">
+                    <div class="title-main">
+                        <img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
+                        <h1 class="title">
+                            tại sao bạn chọn travel gold
+                        </h1>
+                    </div>
+                    <div class="container">
+                        <div class="reason_content mt-5 ">
+                            <div class="reason_content-text">
+                                <p class="reason-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim at duis est id sapien. Et in euismod eget diam neque. Libero aliquet netus mollis magna amet nisl et. Turpis pharetra eget dui, pulvinar amet duis quis
+                                    et. Est nunc mi et sodales. Dolor quam urna curabitur nec semper. Eget enim mattis lorem purus viverra tellus malesuada. At congue ultrices nulla in sapien.
+                                </p>
+                                <p class="reason-text">
+                                    Amet tempor nunc in lectus vitae commodo integer lorem. Congue id augue eget urna, enim sed viverra tellus. Volutpat sollicitudin sagittis pretium dignissim ligula. Risus feugiat dictumst dapibus proin aliquam feugiat maecenas. Sit odio mi fusce nec.
+                                    Venenatis, pharetra at lacus maecenas egestas sed tincidunt.
+                                </p>
+                            </div>
+                            <div class="reason_content-items mt-4">
+                                <div class="row">
+                                    <div class="col-xl-4 ">
+                                        <div class="reason-items">
+                                            <img src="./img/reason-items-1.png" alt="reason-items-1">
+                                            <h4 class="reason-items-title mb-3 mt-4">CÔNG NGHỆ HIỆN ĐẠI</h4>
+                                            <p class="reason-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia,morbi platea id congue mi</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 ">
+                                        <div class="reason-items">
+                                            <img src="./img/reason-items-2.png" alt="reason-items-2">
+                                            <h4 class="reason-items-title mb-3 mt-4">RẺ NHẤT THỊ TRƯỜNG</h4>
+                                            <p class="reason-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia,morbi platea id congue mi</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 ">
+                                        <div class="reason-items">
+                                            <img src="./img/reason-items-3.png" alt="reason-items-3">
+                                            <h4 class="reason-items-title mb-3 mt-4">TIẾT KIỆM THỜI GIAN</h4>
+                                            <p class="reason-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia,morbi platea id congue mi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-bg">
+                        <img src="./img/flower-left-dark.png" alt="flower-left1" class="flower-left-dark">
+                        <img src="./img/flower-right-dark.png" alt="flower-right1" class="flower-right-dark">
+                        <img src="./img/flower-left-light.png" alt="flower-left-light" class="flower-left-light">
+                        <img src="./img/flower-right-light.png" alt="flower-right-light" class="flower-right-light">
 
-					</div>
-				</section>
-				<!-- end the reason -->
-				<section class="slide">
-					<!-- Swiper -->
-					<div class="swiper mySwiper">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide" style="width: 100%;">
-								<div class="slide_img-bg-top"></div>
-								<div class="slide_img-bg-bottom"></div>
-								<img src="./img/slide-bg.png" alt="slide-bg">
-								<div class="container">
-									<img class="slide-border" src="./img/slide_items-border.png" alt="slide_items-border">
-									<div class="slide_items">
-										<h2 class="slide-title-1">
-											TOUR NỔI BẬT
-										</h2>
-										<h4 class="slide-title-2">
-											[HOTEL DE LA COUPOLE GALLERY] – CHECK IN SANG CHẢNH
-										</h4>
-										<p class="slide-text">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing elementum diam duis tempor,
-											neque. A imperdiet etiam cus tortor enim.
-										</p>
-										<div class="d-flex align-items-center">
-											<p class="slide-price"><img src="./img/icon-dollar.png" alt="icon-dollar">1.500k/person</p>
-											<p class="slide-old-price ml-3">1.999k/person</p>
-										</div>
-										<a href="#" class="slide-btn">Booking Now</a>
-									</div>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="slide_img-bg-top"></div>
-								<div class="slide_img-bg-bottom"></div>
-								<img src="./img/slide-bg.png" alt="slide-bg">
-							</div>
-							<div class="swiper-slide">
-								<div class="slide_img-bg-top"></div>
-								<div class="slide_img-bg-bottom"></div>
-								<img src="./img/slide-bg.png" alt="slide-bg">
-							</div>
-						</div>
-						<div class="swiper-pagination"></div>
-					</div>
-				</section>
-				<!-- so thich -->
-				<section class="favourite">
-					<div class="container">
-						<div class="title-main mt-5	">
-							<img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
-							<h1 class="title">
-								điểm đến yêu thích
-							</h1>
-						</div>
-						<div class="favourite_content">
-							<ul class="nav nav-pills mb-3 mt-5	 d-flex justify-content-center" id="pills-tab" role="tablist">
-								<li class="nav-item" role="presentation">
-									<a class="nav-link active favourite-tab" id="chuyentrongnuoc" data-toggle="pill" href="#trongnuoc"
-										role="tab" aria-controls="pills-home" aria-selected="true">Điểm đến trong nước</a>
-								</li>
-								<li class="nav-item" role="presentation">
-									<a class="nav-link favourite-tab" id="chuyennuocngoai" data-toggle="pill" href="#ngoainuoc" role="tab"
-										aria-controls="pills-profile" aria-selected="false">Điểm đến nước ngoài</a>
-								</li>
-							</ul>
-							<div class="tab-content mt-5	" id="pills-tabContent">
-								<div class="tab-pane fade show active" id="trongnuoc" role="tabpanel" aria-labelledby="chuyentrongnuoc">
-									<div class="swiper mySwiper_booking">
-										<div class="swiper-wrapper">
-											<div class="swiper-slide">
-												<div class="favourite_content-items">
-													<div class="row w-100 g-5">
-														<div class="col-xl-4 col-md-6 col-12">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6 mt-4">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6 mt-4">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6 mt-4">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="swiper-slide">
-												<div class="favourite_content-items">
-													<div class="row w-100">
-														<div class="col-xl-4 col-md-6">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6 mt-4">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6 mt-4">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6 mt-4">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="swiper-slide">
-												<div class="favourite_content-items">
-													<div class="row w-100">
-														<div class="col-xl-4 col-md-6">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6 mt-4">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6 mt-4">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-														<div class="col-xl-4 col-md-6 mt-4">
-															<a href="#">
-																<div class="favourite_items">
-																	<div class="favourite_items-bg"></div>
-																	<img src="./img/favourite-img.png" alt="favourite-img">
-																	<h4 class="favourite-title">
-																		Da Nang
-																	</h4>
-																</div>
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="swiper-scrollbar"></div>
-									</div>
-								</div>
-								<div class="tab-pane fade" id="ngoainuoc" role="tabpanel" aria-labelledby="chuyennuocngoai">
-									<div class="swiper mySwiper_booking">
-										<div class="swiper-wrapper">
-											<div class="swiper-slide">
-												<div class="favourite_content-items">
-													<div class="row w-100">
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                    </div>
+                </section>
+                <!-- end the reason -->
+                <section class="slide">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="width: 100%;">
+                                <div class="slide_img-bg-top"></div>
+                                <div class="slide_img-bg-bottom"></div>
+                                <img src="./img/slide-bg.png" alt="slide-bg">
+                                <div class="container">
+                                    <img class="slide-border" src="./img/slide_items-border.png" alt="slide_items-border">
+                                    <div class="slide_items">
+                                        <h2 class="slide-title-1">
+                                            TOUR NỔI BẬT
+                                        </h2>
+                                        <h4 class="slide-title-2">
+                                            [HOTEL DE LA COUPOLE GALLERY] – CHECK IN SANG CHẢNH
+                                        </h4>
+                                        <p class="slide-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing elementum diam duis tempor, neque. A imperdiet etiam cus tortor enim.
+                                        </p>
+                                        <div class="d-flex align-items-center">
+                                            <p class="slide-price"><img src="./img/icon-dollar.png" alt="icon-dollar">1.500k/person</p>
+                                            <p class="slide-old-price ml-3">1.999k/person</p>
+                                        </div>
+                                        <a href="#" class="slide-btn">Booking Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_img-bg-top"></div>
+                                <div class="slide_img-bg-bottom"></div>
+                                <img src="./img/slide-bg.png" alt="slide-bg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_img-bg-top"></div>
+                                <div class="slide_img-bg-bottom"></div>
+                                <img src="./img/slide-bg.png" alt="slide-bg">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+                <!-- so thich -->
+                <section class="favourite">
+                    <div class="container">
+                        <div class="title-main mt-5	">
+                            <img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
+                            <h1 class="title">
+                                điểm đến yêu thích
+                            </h1>
+                        </div>
+                        <div class="favourite_content">
+                            <ul class="nav nav-pills mb-3 mt-5	 d-flex justify-content-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active favourite-tab" id="chuyentrongnuoc" data-toggle="pill" href="#trongnuoc" role="tab" aria-controls="pills-home" aria-selected="true">Điểm đến trong nước</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link favourite-tab" id="chuyennuocngoai" data-toggle="pill" href="#ngoainuoc" role="tab" aria-controls="pills-profile" aria-selected="false">Điểm đến nước ngoài</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content mt-5	" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="trongnuoc" role="tabpanel" aria-labelledby="chuyentrongnuoc">
+                                    <div class="swiper mySwiper_booking">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="favourite_content-items">
+                                                    <div class="row w-100 g-5">
+                                                        <div class="col-xl-4 col-md-6 col-12">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6 mt-4">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6 mt-4">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6 mt-4">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="favourite_content-items">
+                                                    <div class="row w-100">
+                                                        <div class="col-xl-4 col-md-6">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6 mt-4">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6 mt-4">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6 mt-4">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="favourite_content-items">
+                                                    <div class="row w-100">
+                                                        <div class="col-xl-4 col-md-6">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6 mt-4">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6 mt-4">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-6 mt-4">
+                                                            <a href="#">
+                                                                <div class="favourite_items">
+                                                                    <div class="favourite_items-bg"></div>
+                                                                    <img src="./img/favourite-img.png" alt="favourite-img">
+                                                                    <h4 class="favourite-title">
+                                                                        Da Nang
+                                                                    </h4>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-scrollbar"></div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="ngoainuoc" role="tabpanel" aria-labelledby="chuyennuocngoai">
+                                    <div class="swiper mySwiper_booking">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="favourite_content-items">
+                                                    <div class="row w-100">
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-													</div>
-													<div class="row w-100 mt-4">
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row w-100 mt-4">
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="swiper-slide">
-												<div class="favourite_content-items">
-													<div class="row w-100">
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="favourite_content-items">
+                                                    <div class="row w-100">
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-													</div>
-													<div class="row w-100 mt-4">
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row w-100 mt-4">
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="swiper-slide">
-												<div class="favourite_content-items">
-													<div class="row w-100">
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="favourite_content-items">
+                                                    <div class="row w-100">
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-													</div>
-													<div class="row w-100 mt-4">
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row w-100 mt-4">
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
 
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-														<div class="col-4">
-															<div class="favourite_items">
-																<div class="favourite_items-bg"></div>
-																<img src="./img/favourite-img-2.png" alt="favourite-img">
-																<h4 class="favourite-title">
-																	Thai Lan
-																</h4>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="swiper-scrollbar"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end so thich -->
-				<!-- dang ky ngay -->
-				<section class="register">
-					<div class="container">
-						<div class="register_content">
-							<img class="register-border-left" src="./img/register-border-left.svg" alt="register-border-left">
-							<div class="text-center">
-								<h2 class="register-title">Đăng ký bản tin để thấy được các ưu đãi bí mật</h2>
-								<p class="register-text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus facilisis pulvinar auctor donec
-								</p>
-								<div class="register-input">
-									<input placeholder="Nhập địa chỉ email" type="text" name="register-email" id="register-email">
-									<button type="submit">Regiter Now</button>
-								</div>
-							</div>
-							<img class="register-border-right" src="./img/register-border-right.svg" alt="register-border-right">
-						</div>
-					</div>
-				</section>
-				<!-- end dang ky ngay -->
-				<!-- combo duoc thich nhat -->
-				<section class="tourhot pt-5 the-best-tour">
-					<div class="title-main">
-						<img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
-						<h1 class="title">
-							Tour được yêu thích nhất
-						</h1>
-					</div>
-					<div class="container">
-						<div class="tourhot_content">
-							<div class="row">
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-4.png" alt="tourhot-4">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="favourite_items">
+                                                                <div class="favourite_items-bg"></div>
+                                                                <img src="./img/favourite-img-2.png" alt="favourite-img">
+                                                                <h4 class="favourite-title">
+                                                                    Thai Lan
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-scrollbar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end so thich -->
+                <!-- dang ky ngay -->
+                <section class="register">
+                    <div class="container">
+                        <div class="register_content">
+                            <img class="register-border-left" src="./img/register-border-left.svg" alt="register-border-left">
+                            <div class="text-center">
+                                <h2 class="register-title">Đăng ký bản tin để thấy được các ưu đãi bí mật</h2>
+                                <p class="register-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus facilisis pulvinar auctor donec
+                                </p>
+                                <div class="register-input">
+                                    <input placeholder="Nhập địa chỉ email" type="text" name="register-email" id="register-email">
+                                    <button type="submit">Regiter Now</button>
+                                </div>
+                            </div>
+                            <img class="register-border-right" src="./img/register-border-right.svg" alt="register-border-right">
+                        </div>
+                    </div>
+                </section>
+                <!-- end dang ky ngay -->
+                <!-- combo duoc thich nhat -->
+                <section class="tourhot pt-5 the-best-tour">
+                    <div class="title-main">
+                        <img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
+                        <h1 class="title">
+                            Tour được yêu thích nhất
+                        </h1>
+                    </div>
+                    <div class="container">
+                        <div class="tourhot_content">
+                            <div class="row">
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-4.png" alt="tourhot-4">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-4.png" alt="tourhot-4">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-4.png" alt="tourhot-4">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-4.png" alt="tourhot-4">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-4.png" alt="tourhot-4">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-4.png" alt="tourhot-4">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-4.png" alt="tourhot-4">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-4.png" alt="tourhot-4">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-4.png" alt="tourhot-4">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-4.png" alt="tourhot-4">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-4.png" alt="tourhot-4">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-4.png" alt="tourhot-4">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-4.png" alt="tourhot-4">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-3 col-md-6 ">
-									<a href="#">
-										<div class="tourhot_content-img">
-											<img src="./img/tourhot-4.png" alt="tourhot-4">
-										</div>
-										<div class="tourhot_content-items text-left">
-											<h4 class="section-title mt-4">
-												hÀ NỘI - flc SẦM SƠN - HÀ NỘI <p>(2 NGÀY 1 ĐÊM)</p>
-											</h4>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-md-6 ">
+                                    <a href="#">
+                                        <div class="tourhot_content-img">
+                                            <img src="./img/tourhot-4.png" alt="tourhot-4">
+                                        </div>
+                                        <div class="tourhot_content-items text-left">
+                                            <h4 class="section-title mt-4">
+                                                hÀ NỘI - flc SẦM SƠN - HÀ NỘI
+                                                <p>(2 NGÀY 1 ĐÊM)</p>
+                                            </h4>
 
-											<p class="info-text">
-												<img src="./img/icon-plane.png" alt="icon-plane">
-												Khởi hành: hàng ngày
-											</p>
-											<p class="info-text">
-												<img src="./img/icon-calendar.png" alt="icon-calendar">
-												3 Ngày 2 Đêm
-											</p>
-											<p class="price-text">
-												<img src="./img/icon-dollar.png" alt="icon-dollar">
-												2.200.000₫
-											</p>
-										</div>
-									</a>
-								</div>
-							</div>
+                                            <p class="info-text">
+                                                <img src="./img/icon-plane.png" alt="icon-plane"> Khởi hành: hàng ngày
+                                            </p>
+                                            <p class="info-text">
+                                                <img src="./img/icon-calendar.png" alt="icon-calendar"> 3 Ngày 2 Đêm
+                                            </p>
+                                            <p class="price-text">
+                                                <img src="./img/icon-dollar.png" alt="icon-dollar"> 2.200.000₫
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
 
-							<div class="readmore-btn">
-								<a href="#">Xem thêm <img src="./img/chevrons-right.png" alt="chevrons-right"></a>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end combo duoc thich nhat -->
-				<!-- comment =)) -->
-				<section class="comments mt-5">
-					<div class="title-main">
-						<img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
-						<h1 class="title">
-							cảm nhận của khách hàng
-						</h1>
-					</div>
-					<div class="comments_content">
-						<div class="container">
-							<div class="text-center">
-								<div class="swiper mySwiper_comments">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<div class="comment_items">
-												<img src="./img/comments-1.png" alt="comments-1">
-												<h4 class="comments_name">Nguyễn Thảo Vy</h4>
-												<p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
-												<p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi
-													hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa
-													rất
-													tỉ mỉ, khâu cất dựng nhanh.” </p>
-											</div>
-										</div>
-										<div class="swiper-slide">
-											<div class="comment_items">
-												<img src="./img/comments-2.png" alt="comments-2">
-												<h4 class="comments_name">Phạm Thảo My</h4>
-												<p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
-												<p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi
-													hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa
-													rất
-													tỉ mỉ, khâu cất dựng nhanh.” </p>
-											</div>
-										</div>
-										<div class="swiper-slide">
-											<div class="comment_items">
-												<img src="./img/comments-1.png" alt="comments-1">
-												<h4 class="comments_name">Đinh Quang Hiếu</h4>
-												<p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
-												<p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi
-													hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa
-													rất
-													tỉ mỉ, khâu cất dựng nhanh.” </p>
-											</div>
-										</div>
-										<div class="swiper-slide">
-											<div class="comment_items">
-												<img src="./img/comments-2.png" alt="comments-2">
-												<h4 class="comments_name">Nguyễn Quang Duy</h4>
-												<p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
-												<p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi
-													hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa
-													rất
-													tỉ mỉ, khâu cất dựng nhanh.” </p>
-											</div>
-										</div>
-										<div class="swiper-slide">
-											<div class="comment_items">
-												<img src="./img/comments-1.png" alt="comments-1">
-												<h4 class="comments_name">Cao Xuân Ngọc</h4>
-												<p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
-												<p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi
-													hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa
-													rất
-													tỉ mỉ, khâu cất dựng nhanh.” </p>
-											</div>
-										</div>
-										<div class="swiper-slide">
-											<div class="comment_items">
-												<img src="./img/comments-2.png" alt="comments-2">
-												<h4 class="comments_name">Đinh Mạnh Cường</h4>
-												<p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
-												<p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi
-													hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa
-													rất
-													tỉ mỉ, khâu cất dựng nhanh.” </p>
-											</div>
-										</div>
-									</div>
-									<div class="swiper-button-next">
-										<img src="./img/comments-prey.svg" alt="comments-prey">
-									</div>
-									<div class="swiper-button-prev">
-										<img src="./img/comments-next.svg" alt="comments-next">
-									</div>
-									<div class="swiper-pagination"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end comment =)) -->
-				<!-- ad  -->
-				<section class="ad">
-					<div class="container">
-						<div class="swiper mySwiper_ad">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<a href="#">
-										<img src="./img/ad1.png" alt="">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="#">
-										<img src="./img/ad1.png" alt="">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="#">
-										<img src="./img/ad1.png" alt="">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="#">
-										<img src="./img/ad1.png" alt="">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="#">
-										<img src="./img/ad1.png" alt="">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="#">
-										<img src="./img/ad1.png" alt="">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="#">
-										<img src="./img/ad1.png" alt="">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="#">
-										<img src="./img/ad1.png" alt="">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="#">
-										<img src="./img/ad1.png" alt="">
-									</a>
-								</div>
-							</div>
-							<div class="swiper-button-next">
-								<img src="./img/comments-prey.svg" alt="comments-prey">
-							</div>
-							<div class="swiper-button-prev">
-								<img src="./img/comments-next.svg" alt="comments-next">
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end ad -->
-				<!-- breaknew -->
-				<section class="breaknew">
-					<div class="container">
-						<div class="text-center">
-							<div class="breaknew_content">
-								<div class="row">
-									<div class="col-xl-3 col-md-6">
-										<h4 class="breaknew-text-1">05</h4>
-										<p class="breaknew-text-2">Năm kinh nghiệm</p>
-									</div>
-									<div class="col-xl-3 col-md-6">
-										<h4 class="breaknew-text-1">250</h4>
-										<p class="breaknew-text-2">Tour du lịch trong
-											và ngoài nước</p>
-									</div>
-									<div class="col-xl-3 col-md-6">
-										<h4 class="breaknew-text-1">999+</h4>
-										<p class="breaknew-text-2">Khách hàng, đối tác </p>
-									</div>
-									<div class="col-xl-3 col-md-6">
-										<h4 class="breaknew-text-1">100%</h4>
-										<p class="breaknew-text-2">Khách hàng hài lòng</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end breaknew -->
-				<!-- handbook and travel -->
-				<section class="handbook">
-					<div class="title-main">
-						<img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
-						<h1 class="title">
-							cẩm nang du lịch
-						</h1>
-					</div>
-					<div class="handbook_content mt-3">
-						<div class="text-center">
-							<div class="container">
-								<div class="row">
-									<div class="col-xl-6 ">
-										<div class="handbook_khampha-title">
-											<div class=" d-flex align-items-center justify-content-between">
-												<h3 class="handbook-title">KHÁM PHÁ</h3>
-												<a class="handbook_read-all" href="#">Xem tất cả <img src="./img/handbook-icon-right.svg"
+                            <div class="readmore-btn">
+                                <a href="#">Xem thêm <img src="./img/chevrons-right.png" alt="chevrons-right"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end combo duoc thich nhat -->
+                <!-- comment =)) -->
+                <section class="comments mt-5">
+                    <div class="title-main">
+                        <img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
+                        <h1 class="title">
+                            cảm nhận của khách hàng
+                        </h1>
+                    </div>
+                    <div class="comments_content">
+                        <div class="container">
+                            <div class="text-center">
+                                <div class="swiper mySwiper_comments">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="comment_items">
+                                                <img src="./img/comments-1.png" alt="comments-1">
+                                                <h4 class="comments_name">Nguyễn Thảo Vy</h4>
+                                                <p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
+                                                <p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa rất tỉ mỉ, khâu cất dựng nhanh.” </p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="comment_items">
+                                                <img src="./img/comments-2.png" alt="comments-2">
+                                                <h4 class="comments_name">Phạm Thảo My</h4>
+                                                <p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
+                                                <p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa rất tỉ mỉ, khâu cất dựng nhanh.” </p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="comment_items">
+                                                <img src="./img/comments-1.png" alt="comments-1">
+                                                <h4 class="comments_name">Đinh Quang Hiếu</h4>
+                                                <p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
+                                                <p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa rất tỉ mỉ, khâu cất dựng nhanh.” </p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="comment_items">
+                                                <img src="./img/comments-2.png" alt="comments-2">
+                                                <h4 class="comments_name">Nguyễn Quang Duy</h4>
+                                                <p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
+                                                <p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa rất tỉ mỉ, khâu cất dựng nhanh.” </p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="comment_items">
+                                                <img src="./img/comments-1.png" alt="comments-1">
+                                                <h4 class="comments_name">Cao Xuân Ngọc</h4>
+                                                <p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
+                                                <p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa rất tỉ mỉ, khâu cất dựng nhanh.” </p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="comment_items">
+                                                <img src="./img/comments-2.png" alt="comments-2">
+                                                <h4 class="comments_name">Đinh Mạnh Cường</h4>
+                                                <p class="comments_info">Tour Phú Quốc - 11/08/2021</p>
+                                                <p class="comments_text">“Tôi rất tin tưởng và xem xét kĩ các sản phẩm từ khâu sản xuất đến khi hoàn thiện được chọn lọc loại gỗ tốt nhất, hoa văn họa tiết được thợ có tay nghề cao đục tỉa rất tỉ mỉ, khâu cất dựng nhanh.” </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next">
+                                        <img src="./img/comments-prey.svg" alt="comments-prey">
+                                    </div>
+                                    <div class="swiper-button-prev">
+                                        <img src="./img/comments-next.svg" alt="comments-next">
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end comment =)) -->
+                <!-- ad  -->
+                <section class="ad">
+                    <div class="container">
+                        <div class="swiper mySwiper_ad">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/ad1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/ad1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/ad1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/ad1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/ad1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/ad1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/ad1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/ad1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/ad1.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="./img/comments-prey.svg" alt="comments-prey">
+                            </div>
+                            <div class="swiper-button-prev">
+                                <img src="./img/comments-next.svg" alt="comments-next">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end ad -->
+                <!-- breaknew -->
+                <section class="breaknew">
+                    <div class="container">
+                        <div class="text-center">
+                            <div class="breaknew_content">
+                                <div class="row">
+                                    <div class="col-xl-3 col-md-6">
+                                        <h4 class="breaknew-text-1">05</h4>
+                                        <p class="breaknew-text-2">Năm kinh nghiệm</p>
+                                    </div>
+                                    <div class="col-xl-3 col-md-6">
+                                        <h4 class="breaknew-text-1">250</h4>
+                                        <p class="breaknew-text-2">Tour du lịch trong và ngoài nước</p>
+                                    </div>
+                                    <div class="col-xl-3 col-md-6">
+                                        <h4 class="breaknew-text-1">999+</h4>
+                                        <p class="breaknew-text-2">Khách hàng, đối tác </p>
+                                    </div>
+                                    <div class="col-xl-3 col-md-6">
+                                        <h4 class="breaknew-text-1">100%</h4>
+                                        <p class="breaknew-text-2">Khách hàng hài lòng</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end breaknew -->
+                <!-- handbook and travel -->
+                <section class="handbook">
+                    <div class="title-main">
+                        <img class="title-items-1" src="./img/title-items1.svg" alt="title-items1">
+                        <h1 class="title">
+                            cẩm nang du lịch
+                        </h1>
+                    </div>
+                    <div class="handbook_content mt-3">
+                        <div class="text-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-6 ">
+                                        <div class="handbook_khampha-title">
+                                            <div class=" d-flex align-items-center justify-content-between">
+                                                <h3 class="handbook-title">KHÁM PHÁ</h3>
+                                                <a class="handbook_read-all" href="#">Xem tất cả <img src="./img/handbook-icon-right.svg"
 														alt="handbook-icon-right">
 												</a>
-											</div>
-											<div class="handbook_khampha-content">
-												<div class="handbook_post mb-2">
-													<a href="#">
-														<img src="./img/handbook_post.png" alt="handbook_post">
+                                            </div>
+                                            <div class="handbook_khampha-content">
+                                                <div class="handbook_post mb-2">
+                                                    <a href="#">
+                                                        <img src="./img/handbook_post.png" alt="handbook_post">
 
-													</a>
-													<p class="handbook_post-date"><img src="./img/icon-calendar.png" alt="icon-calendar">
-														22/06/2021</p>
-													<a href="#" class="handbook_post-title">Du lịch nông thôn sẽ là chủ lực phục hồi du lịch Việt
+                                                    </a>
+                                                    <p class="handbook_post-date"><img src="./img/icon-calendar.png" alt="icon-calendar"> 22/06/2021
+                                                    </p>
+                                                    <a href="#" class="handbook_post-title">Du lịch nông thôn sẽ là chủ lực phục hồi du lịch Việt
 														Nam</a>
-													<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
-														egestas purus diam leo mi tellus. Convallis mauris, pulvinar sit aenean dictumst velit
-														lorem dasdasdfd asdas</p>
-												</div>
-												<div class="row">
-													<div class=" col-md-6 ">
-														<a href="#" class="d-flex justify-content-between align-items-center mt-xl-3">
-															<img class="handbook-img" src="./img/handbook_post.png" alt="">
-															<p class="handbook_items-title">Những điểm du lịch rùng rợn nhưng được yêu thích</p>
-														</a>
-													</div>
-													<div class=" col-md-6 d-flex justify-content-between align-items-center mt-xl-3 mt-1 ">
-														<a href="#" class="d-flex justify-content-between align-items-center">
-															<img class="handbook-img" src="./img/handbook_post.png" alt="">
-															<p class="handbook_items-title">Những điểm du lịch rùng rợn nhưng được yêu thích</p>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-xl-6 ">
-										<div class="handbook_travel">
-											<div class=" d-flex align-items-center justify-content-between">
-												<h3 class="handbook-title">MẸO DU LỊCH</h3>
-												<a class="handbook_read-all" href="#">Xem tất cả <img src="./img/handbook-icon-right.svg"
+                                                    <p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id egestas purus diam leo mi tellus. Convallis mauris, pulvinar sit aenean dictumst velit lorem dasdasdfd asdas</p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class=" col-md-6 ">
+                                                        <a href="#" class="d-flex justify-content-between align-items-center mt-xl-3">
+                                                            <img class="handbook-img" src="./img/handbook_post.png" alt="">
+                                                            <p class="handbook_items-title">Những điểm du lịch rùng rợn nhưng được yêu thích</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class=" col-md-6 d-flex justify-content-between align-items-center mt-xl-3 mt-1 ">
+                                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                                            <img class="handbook-img" src="./img/handbook_post.png" alt="">
+                                                            <p class="handbook_items-title">Những điểm du lịch rùng rợn nhưng được yêu thích</p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 ">
+                                        <div class="handbook_travel">
+                                            <div class=" d-flex align-items-center justify-content-between">
+                                                <h3 class="handbook-title">MẸO DU LỊCH</h3>
+                                                <a class="handbook_read-all" href="#">Xem tất cả <img src="./img/handbook-icon-right.svg"
 														alt="handbook-icon-right">
 												</a>
-											</div>
-											<div class="handbook_travel-content">
-												<div class="handbook_travel-items">
-													<img src="./img/handbook_post.png" alt="">
-													<div>
-														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+                                            </div>
+                                            <div class="handbook_travel-content">
+                                                <div class="handbook_travel-items">
+                                                    <img src="./img/handbook_post.png" alt="">
+                                                    <div>
+                                                        <a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
-															etiam et cras sed mi egestas orci. Nunc tempor</p>
-													</div>
-												</div>
-												<div class="handbook_travel-items mt-3	">
-													<img src="./img/handbook_post.png" alt="">
-													<div>
-														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+                                                        <p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl etiam et cras sed mi egestas orci. Nunc tempor</p>
+                                                    </div>
+                                                </div>
+                                                <div class="handbook_travel-items mt-3	">
+                                                    <img src="./img/handbook_post.png" alt="">
+                                                    <div>
+                                                        <a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
-															etiam et cras sed mi egestas orci. Nunc tempor</p>
-													</div>
-												</div>
-												<div class="handbook_travel-items mt-3	">
-													<img src="./img/handbook_post.png" alt="">
-													<div>
-														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+                                                        <p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl etiam et cras sed mi egestas orci. Nunc tempor</p>
+                                                    </div>
+                                                </div>
+                                                <div class="handbook_travel-items mt-3	">
+                                                    <img src="./img/handbook_post.png" alt="">
+                                                    <div>
+                                                        <a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
-															etiam et cras sed mi egestas orci. Nunc tempor</p>
-													</div>
-												</div>
-												<div class="handbook_travel-items mt-3	">
-													<img src="./img/handbook_post.png" alt="">
-													<div>
-														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+                                                        <p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl etiam et cras sed mi egestas orci. Nunc tempor</p>
+                                                    </div>
+                                                </div>
+                                                <div class="handbook_travel-items mt-3	">
+                                                    <img src="./img/handbook_post.png" alt="">
+                                                    <div>
+                                                        <a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
-															etiam et cras sed mi egestas orci. Nunc tempor</p>
-													</div>
-												</div>
-												<div class="handbook_travel-items mt-3	">
-													<img src="./img/handbook_post.png" alt="">
-													<div>
-														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+                                                        <p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl etiam et cras sed mi egestas orci. Nunc tempor</p>
+                                                    </div>
+                                                </div>
+                                                <div class="handbook_travel-items mt-3	">
+                                                    <img src="./img/handbook_post.png" alt="">
+                                                    <div>
+                                                        <a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
-															etiam et cras sed mi egestas orci. Nunc tempor</p>
-													</div>
-												</div>
-												<div class="handbook_travel-items mt-3	">
-													<img src="./img/handbook_post.png" alt="">
-													<div>
-														<a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
+                                                        <p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl etiam et cras sed mi egestas orci. Nunc tempor</p>
+                                                    </div>
+                                                </div>
+                                                <div class="handbook_travel-items mt-3	">
+                                                    <img src="./img/handbook_post.png" alt="">
+                                                    <div>
+                                                        <a href="#" class="handbook_post-title">Bí kíp săn voucher Vinpearl Đà Nẵng siêu rẻ hè
 															2021</a>
-														<p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
-															etiam et cras sed mi egestas orci. Nunc tempor</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end handbook and travel -->
-			</div>
-		</div>
-	</main>
-	<footer class="t-footer">
-		<div class="text-center">
-			<div class="footer_top">
-				<div class="container">
-					<div class="footer_top-items">
-						<ul>
-							<li class="border_footer-items"><a href="#">Tour cao cấp</a></li>
-							<li class="border_footer-items"><a href="#">tour tiêu chuẩn </a></li>
-							<li class="border_footer-items"><a href="#">tour giá tốt</a></li>
-							<li class="border_footer-items"><a href="#">tour tiết kiệm</a></li>
-							<li class="border_footer-items"><a href="#">tour trong nước </a></li>
-							<li><a href="#">tour nước ngoài</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="footer_mid">
-				<div class="container">
-					<div class="footer_mid-items">
-						<div class="row text-capitalize">
-							<div class="col-xl-3">
-								<a href="#">
-									<img src="./img/footer_logo.png" alt="footer_logo	">
+                                                        <p class="handbook_post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl etiam et cras sed mi egestas orci. Nunc tempor</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end handbook and travel -->
+            </div>
+        </div>
+    </main>
+    <footer class="t-footer">
+        <div class="text-center">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="footer_top-items">
+                        <ul>
+                            <li class="border_footer-items"><a href="#">Tour cao cấp</a></li>
+                            <li class="border_footer-items"><a href="#">tour tiêu chuẩn </a></li>
+                            <li class="border_footer-items"><a href="#">tour giá tốt</a></li>
+                            <li class="border_footer-items"><a href="#">tour tiết kiệm</a></li>
+                            <li class="border_footer-items"><a href="#">tour trong nước </a></li>
+                            <li><a href="#">tour nước ngoài</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_mid">
+                <div class="container">
+                    <div class="footer_mid-items">
+                        <div class="row text-capitalize">
+                            <div class="col-xl-3">
+                                <a href="#">
+                                    <img src="./img/footer_logo.png" alt="footer_logo	">
 
-								</a>
-								<p class="footer-text"> Consectetur imperdiet est cursus amet nibh bibendum lorem nibh.</p>
-								<a class="phone-footer" href="tel:0911115825">0911.11.58.25</a>
-								<p class="footer-text">Sẵn sàng phục vụ</p>
-							</div>
-							<div class="col-xl-3  text-left pt-3">
-								<h5 class="footer-title mb-xl-5">
-									công ty cổ phần t.m
-									<p>travel gold</p>
-								</h5>
-								<ul>
-									<li class="mb-3">
-										<p>hotline : </p> <a href="tel:0911115825">091111.58.25</a>
-									</li>
-									<li class="mb-3">
-										<p>điện thoại : </p> <a href="tel:0911115825">091111.58.25</a>
-									</li>
-									<li class="mb-3">
-										<p>email: </p>
-										<a href="mailto:travelgold.vn@gmail.com">travelgold.vn@gmail.com</a>
-									</li>
-									<li class="mb-3">
-										<p>trụ sở : </p>
-										<a href="#">Khu làng nghề Hải Vân- Hải Hậu- Nam Định</a>
-									</li>
-								</ul>
-							</div>
-							<div class="col-xl-3  pt-3 text-left">
-								<h5 class="footer-title mb-xl-5">
-									hỗ trợ
-									<p>khách hàng</p>
-								</h5>
-								<ul>
-									<li class="mb-3"><a href="#">hướng dẫn</a></li>
-									<li class="mb-3"><a href="#">câu hỏi thường gặp</a></li>
-									<li class="mb-3"><a href="#">liên hệ</a></li>
-								</ul>
-							</div>
-							<div class="col-xl-3  pt-3 float-left text-left">
-								<h5 class="footer-title mb-xl-5">
-									đăng kí nhận
-									<p>tin và ưu đãi</p>
-								</h5>
-								<p class="footer-text">Đăng ký nhận tin để lên kế hoạch cho kỳ nghỉ tới ngay từ bây giờ:</p>
-								<input class="mt-2" type="text" placeholder="Tên của bạn">
-								<input class="mt-2" type="text" placeholder="Email của bạn">
-								<button class="d-block text-capitalize mt-3 bg-transparent shadow-none border-0">đăng kí <img
+                                </a>
+                                <p class="footer-text"> Consectetur imperdiet est cursus amet nibh bibendum lorem nibh.</p>
+                                <a class="phone-footer" href="tel:0911115825">0911.11.58.25</a>
+                                <p class="footer-text">Sẵn sàng phục vụ</p>
+                            </div>
+                            <div class="col-xl-3  text-left pt-3">
+                                <h5 class="footer-title mb-xl-5">
+                                    công ty cổ phần t.m
+                                    <p>travel gold</p>
+                                </h5>
+                                <ul>
+                                    <li class="mb-3">
+                                        <p>hotline : </p> <a href="tel:0911115825">091111.58.25</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <p>điện thoại : </p> <a href="tel:0911115825">091111.58.25</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <p>email: </p>
+                                        <a href="mailto:travelgold.vn@gmail.com">travelgold.vn@gmail.com</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <p>trụ sở : </p>
+                                        <a href="#">Khu làng nghề Hải Vân- Hải Hậu- Nam Định</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3  pt-3 text-left">
+                                <h5 class="footer-title mb-xl-5">
+                                    hỗ trợ
+                                    <p>khách hàng</p>
+                                </h5>
+                                <ul>
+                                    <li class="mb-3"><a href="#">hướng dẫn</a></li>
+                                    <li class="mb-3"><a href="#">câu hỏi thường gặp</a></li>
+                                    <li class="mb-3"><a href="#">liên hệ</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3  pt-3 float-left text-left">
+                                <h5 class="footer-title mb-xl-5">
+                                    đăng kí nhận
+                                    <p>tin và ưu đãi</p>
+                                </h5>
+                                <p class="footer-text">Đăng ký nhận tin để lên kế hoạch cho kỳ nghỉ tới ngay từ bây giờ:</p>
+                                <input class="mt-2" type="text" placeholder="Tên của bạn">
+                                <input class="mt-2" type="text" placeholder="Email của bạn">
+                                <button class="d-block text-capitalize mt-3 bg-transparent shadow-none border-0">đăng kí <img
 										src="./img/footer-btn-vector.png" alt="footer-btn-vector"> </button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer_bottom">
-				<div class="container">
-					<div class="footer_bottom-items">
-						<div class="row">
-							<div class="col-xl-6   text-left">
-								<ul>
-									<li><a href="#">TRAVEL GOLD</a></li>
-									<li><a href="#">Chính sách bảo mật</a></li>
-									<li><a href="#">Điều khoản dịch vụ</a></li>
-								</ul>
-							</div>
-							<div class="col-xl-6 ">
-								<p class="footer-text">© Copyright 2021. All Rights Reserved. Designed by Tech5S</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-		crossorigin="anonymous"></script>
-	<!-- Swiper JS -->
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<!-- Link main js -->
-	<script src="./js/main.js"></script>
-	<!-- jquery -->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="footer_bottom-items">
+                        <div class="row">
+                            <div class="col-xl-6   text-left">
+                                <ul>
+                                    <li><a href="#">TRAVEL GOLD</a></li>
+                                    <li><a href="#">Chính sách bảo mật</a></li>
+                                    <li><a href="#">Điều khoản dịch vụ</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-6 ">
+                                <p class="footer-text">© Copyright 2021. All Rights Reserved. Designed by Tech5S</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Link main js -->
+    <script src="./js/main.js"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </body>
 
 </html>
